@@ -5,6 +5,7 @@ export interface BreadthPoint {
   neutral_pct: number;
   net_breadth: number;
   R_ratio: number;
+  beta?: number;
 }
 
 export interface MarketPulse {

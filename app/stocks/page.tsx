@@ -1,8 +1,9 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import StockSearch from "@/components/StockSearch";
 import { getSnapshot, getStockStateLabel, getFlowBadgeClass, getFlowLabel } from "@/lib/data";
 import type { Metadata } from "next";
-import { Star, Eye, TrendingDown } from "lucide-react";
+import { Star, Eye, TrendingDown, Search } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Stock Radar — F7 Signals & IN THE FLOW",
@@ -29,6 +30,14 @@ export default async function StocksPage() {
   const total = Object.values(dist).reduce((a, b) => a + b, 0);
 
   const distEntries = Object.entries(dist).sort(([a], [b]) => STATE_SORT[a] - STATE_SORT[b]);
+
+  // All stocks for the search explorer (combine all lists, deduplicate by symbol)
+  const allStocksMap = new Map<string, typeof snap.f7_stocks[0]>();
+  [...snap.f7_stocks, ...snap.in_the_flow, ...snap.watchlist, ...snap.s6_stocks].forEach((s) => {
+    if (!allStocksMap.has(s.symbol)) allStocksMap.set(s.symbol, s);
+  });
+  const allStocks = Array.from(allStocksMap.values());
+  const sectors = [...new Set(allStocks.map((s) => s.sector))].sort();
 
   return (
     <>
@@ -73,6 +82,19 @@ export default async function StocksPage() {
               );
             })}
           </div>
+        </section>
+
+        {/* Stock Explorer */}
+        <section style={{ marginBottom: 40 }}>
+          <div style={{ display: "flex", alignItems: "flex-end", gap: 12, marginBottom: 8 }}>
+            <Search size={16} style={{ color: "var(--text-2)", marginBottom: 2 }} />
+            <h2 style={{ fontSize: 18, fontWeight: 600, letterSpacing: "-0.02em" }}>Stock Explorer</h2>
+            <span className="badge badge-gray" style={{ marginBottom: 1 }}>{allStocks.length} stocks</span>
+          </div>
+          <p style={{ color: "var(--text-3)", fontSize: 13, marginBottom: 16, maxWidth: 700 }}>
+            Search and filter across all stocks in the radar — F7, IN THE FLOW, Watchlist, and S6. Filter by sector, state, or minimum TrueVX score.
+          </p>
+          <StockSearch allStocks={allStocks} sectors={sectors} />
         </section>
 
         {/* F7 Signal */}

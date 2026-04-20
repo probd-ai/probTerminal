@@ -28,7 +28,8 @@
         "bear_pct": 24.4,
         "neutral_pct": 62.9,
         "net_breadth": -0.117,
-        "R_ratio": 0.522
+        "R_ratio": 0.522,
+        "beta": 0.567
       },
       {
         "date": "2025-12-04",
@@ -36,7 +37,8 @@
         "bear_pct": 24.4,
         "neutral_pct": 62.9,
         "net_breadth": -0.117,
-        "R_ratio": 0.522
+        "R_ratio": 0.522,
+        "beta": 0.567
       },
       {
         "date": "2025-12-05",
@@ -44,7 +46,8 @@
         "bear_pct": 24.4,
         "neutral_pct": 62.9,
         "net_breadth": -0.117,
-        "R_ratio": 0.522
+        "R_ratio": 0.522,
+        "beta": 0.567
       },
       {
         "date": "2025-12-08",
@@ -52,7 +55,8 @@
         "bear_pct": 24.4,
         "neutral_pct": 62.6,
         "net_breadth": -0.114,
-        "R_ratio": 0.53
+        "R_ratio": 0.53,
+        "beta": 0.566
       },
       {
         "date": "2025-12-09",
@@ -60,7 +64,8 @@
         "bear_pct": 24.4,
         "neutral_pct": 62.6,
         "net_breadth": -0.114,
-        "R_ratio": 0.53
+        "R_ratio": 0.53,
+        "beta": 0.566
       },
       {
         "date": "2025-12-10",
@@ -68,7 +73,8 @@
         "bear_pct": 25.1,
         "neutral_pct": 62.2,
         "net_breadth": -0.124,
-        "R_ratio": 0.508
+        "R_ratio": 0.508,
+        "beta": 0.569
       },
       {
         "date": "2025-12-11",
@@ -76,7 +82,8 @@
         "bear_pct": 25.3,
         "neutral_pct": 62.2,
         "net_breadth": -0.128,
-        "R_ratio": 0.496
+        "R_ratio": 0.496,
+        "beta": 0.57
       },
       {
         "date": "2025-12-12",
@@ -84,7 +91,8 @@
         "bear_pct": 25.3,
         "neutral_pct": 62.2,
         "net_breadth": -0.128,
-        "R_ratio": 0.496
+        "R_ratio": 0.496,
+        "beta": 0.57
       },
       {
         "date": "2025-12-15",
@@ -92,7 +100,8 @@
         "bear_pct": 25.3,
         "neutral_pct": 62.4,
         "net_breadth": -0.13,
-        "R_ratio": 0.487
+        "R_ratio": 0.487,
+        "beta": 0.57
       },
       {
         "date": "2025-12-16",
@@ -100,7 +109,8 @@
         "bear_pct": 25.4,
         "neutral_pct": 62.3,
         "net_breadth": -0.131,
-        "R_ratio": 0.483
+        "R_ratio": 0.483,
+        "beta": 0.57
       },
       {
         "date": "2025-12-17",
@@ -108,7 +118,8 @@
         "bear_pct": 25.6,
         "neutral_pct": 62.1,
         "net_breadth": -0.133,
-        "R_ratio": 0.479
+        "R_ratio": 0.479,
+        "beta": 0.571
       },
       {
         "date": "2025-12-18",
@@ -116,7 +127,8 @@
         "bear_pct": 25.6,
         "neutral_pct": 62.1,
         "net_breadth": -0.133,
-        "R_ratio": 0.479
+        "R_ratio": 0.479,
+        "beta": 0.571
       },
       {
         "date": "2025-12-19",
@@ -124,7 +136,8 @@
         "bear_pct": 25.4,
         "neutral_pct": 62.3,
         "net_breadth": -0.131,
-        "R_ratio": 0.483
+        "R_ratio": 0.483,
+        "beta": 0.57
       },
       {
         "date": "2025-12-22",
@@ -132,7 +145,8 @@
         "bear_pct": 25.6,
         "neutral_pct": 62.1,
         "net_breadth": -0.133,
-        "R_ratio": 0.479
+        "R_ratio": 0.479,
+        "beta": 0.571
       },
       {
         "date": "2025-12-23",
@@ -140,7 +154,8 @@
         "bear_pct": 25.8,
         "neutral_pct": 61.9,
         "net_breadth": -0.135,
-        "R_ratio": 0.475
+        "R_ratio": 0.475,
+        "beta": 0.571
       },
       {
         "date": "2025-12-24",
@@ -148,7 +163,8 @@
         "bear_pct": 25.8,
         "neutral_pct": 61.9,
         "net_breadth": -0.135,
-        "R_ratio": 0.475
+        "R_ratio": 0.475,
+        "beta": 0.571
       },
       {
         "date": "2025-12-26",
@@ -156,7 +172,8 @@
         "bear_pct": 25.8,
         "neutral_pct": 61.9,
         "net_breadth": -0.135,
-        "R_ratio": 0.475
+        "R_ratio": 0.475,
+        "beta": 0.571
       },
       {
         "date": "2025-12-29",
@@ -164,7 +181,8 @@
         "bear_pct": 25.8,
         "neutral_pct": 62.4,
         "net_breadth": -0.14,
-        "R_ratio": 0.459
+        "R_ratio": 0.459,
+        "beta": 0.572
       },
       {
         "date": "2025-12-30",
@@ -172,7 +190,8 @@
         "bear_pct": 25.8,
         "neutral_pct": 61.9,
         "net_breadth": -0.135,
-        "R_ratio": 0.475
+        "R_ratio": 0.475,
+        "beta": 0.571
       },
       {
         "date": "2025-12-31",
@@ -180,7 +199,8 @@
         "bear_pct": 26.0,
         "neutral_pct": 61.5,
         "net_breadth": -0.135,
-        "R_ratio": 0.48
+        "R_ratio": 0.48,
+        "beta": 0.571
       },
       {
         "date": "2026-01-01",
@@ -188,7 +208,8 @@
         "bear_pct": 25.8,
         "neutral_pct": 61.3,
         "net_breadth": -0.129,
-        "R_ratio": 0.5
+        "R_ratio": 0.5,
+        "beta": 0.57
       },
       {
         "date": "2026-01-02",
@@ -196,7 +217,8 @@
         "bear_pct": 25.6,
         "neutral_pct": 61.3,
         "net_breadth": -0.125,
-        "R_ratio": 0.512
+        "R_ratio": 0.512,
+        "beta": 0.569
       },
       {
         "date": "2026-01-05",
@@ -204,7 +226,8 @@
         "bear_pct": 25.8,
         "neutral_pct": 61.1,
         "net_breadth": -0.127,
-        "R_ratio": 0.508
+        "R_ratio": 0.508,
+        "beta": 0.57
       },
       {
         "date": "2026-01-06",
@@ -212,7 +235,8 @@
         "bear_pct": 26.0,
         "neutral_pct": 61.3,
         "net_breadth": -0.133,
-        "R_ratio": 0.488
+        "R_ratio": 0.488,
+        "beta": 0.571
       },
       {
         "date": "2026-01-07",
@@ -220,7 +244,8 @@
         "bear_pct": 25.6,
         "neutral_pct": 61.9,
         "net_breadth": -0.131,
-        "R_ratio": 0.488
+        "R_ratio": 0.488,
+        "beta": 0.57
       },
       {
         "date": "2026-01-08",
@@ -228,7 +253,8 @@
         "bear_pct": 26.0,
         "neutral_pct": 61.9,
         "net_breadth": -0.139,
-        "R_ratio": 0.463
+        "R_ratio": 0.463,
+        "beta": 0.572
       },
       {
         "date": "2026-01-09",
@@ -236,7 +262,8 @@
         "bear_pct": 26.0,
         "neutral_pct": 61.9,
         "net_breadth": -0.139,
-        "R_ratio": 0.463
+        "R_ratio": 0.463,
+        "beta": 0.572
       },
       {
         "date": "2026-01-12",
@@ -244,7 +271,8 @@
         "bear_pct": 26.4,
         "neutral_pct": 61.8,
         "net_breadth": -0.146,
-        "R_ratio": 0.448
+        "R_ratio": 0.448,
+        "beta": 0.574
       },
       {
         "date": "2026-01-13",
@@ -252,7 +280,8 @@
         "bear_pct": 26.4,
         "neutral_pct": 61.8,
         "net_breadth": -0.146,
-        "R_ratio": 0.448
+        "R_ratio": 0.448,
+        "beta": 0.574
       },
       {
         "date": "2026-01-14",
@@ -260,7 +289,8 @@
         "bear_pct": 26.4,
         "neutral_pct": 61.8,
         "net_breadth": -0.146,
-        "R_ratio": 0.448
+        "R_ratio": 0.448,
+        "beta": 0.574
       },
       {
         "date": "2026-01-16",
@@ -268,7 +298,8 @@
         "bear_pct": 26.6,
         "neutral_pct": 61.2,
         "net_breadth": -0.144,
-        "R_ratio": 0.46
+        "R_ratio": 0.46,
+        "beta": 0.573
       },
       {
         "date": "2026-01-19",
@@ -276,7 +307,8 @@
         "bear_pct": 26.6,
         "neutral_pct": 61.2,
         "net_breadth": -0.144,
-        "R_ratio": 0.46
+        "R_ratio": 0.46,
+        "beta": 0.573
       },
       {
         "date": "2026-01-20",
@@ -284,7 +316,8 @@
         "bear_pct": 26.6,
         "neutral_pct": 61.2,
         "net_breadth": -0.144,
-        "R_ratio": 0.46
+        "R_ratio": 0.46,
+        "beta": 0.573
       },
       {
         "date": "2026-01-21",
@@ -292,7 +325,8 @@
         "bear_pct": 26.6,
         "neutral_pct": 61.2,
         "net_breadth": -0.144,
-        "R_ratio": 0.46
+        "R_ratio": 0.46,
+        "beta": 0.573
       },
       {
         "date": "2026-01-22",
@@ -300,7 +334,8 @@
         "bear_pct": 27.0,
         "neutral_pct": 61.0,
         "net_breadth": -0.15,
-        "R_ratio": 0.445
+        "R_ratio": 0.445,
+        "beta": 0.575
       },
       {
         "date": "2026-01-23",
@@ -308,7 +343,8 @@
         "bear_pct": 27.0,
         "neutral_pct": 60.8,
         "net_breadth": -0.148,
-        "R_ratio": 0.453
+        "R_ratio": 0.453,
+        "beta": 0.574
       },
       {
         "date": "2026-01-27",
@@ -316,7 +352,8 @@
         "bear_pct": 27.2,
         "neutral_pct": 60.6,
         "net_breadth": -0.15,
-        "R_ratio": 0.45
+        "R_ratio": 0.45,
+        "beta": 0.575
       },
       {
         "date": "2026-01-28",
@@ -324,7 +361,8 @@
         "bear_pct": 27.4,
         "neutral_pct": 60.4,
         "net_breadth": -0.152,
-        "R_ratio": 0.446
+        "R_ratio": 0.446,
+        "beta": 0.576
       },
       {
         "date": "2026-01-29",
@@ -332,7 +370,8 @@
         "bear_pct": 27.4,
         "neutral_pct": 60.6,
         "net_breadth": -0.154,
-        "R_ratio": 0.438
+        "R_ratio": 0.438,
+        "beta": 0.576
       },
       {
         "date": "2026-01-30",
@@ -340,7 +379,8 @@
         "bear_pct": 27.4,
         "neutral_pct": 60.6,
         "net_breadth": -0.154,
-        "R_ratio": 0.438
+        "R_ratio": 0.438,
+        "beta": 0.576
       },
       {
         "date": "2026-02-01",
@@ -348,7 +388,8 @@
         "bear_pct": 27.4,
         "neutral_pct": 60.8,
         "net_breadth": -0.156,
-        "R_ratio": 0.431
+        "R_ratio": 0.431,
+        "beta": 0.576
       },
       {
         "date": "2026-02-02",
@@ -356,7 +397,8 @@
         "bear_pct": 27.4,
         "neutral_pct": 61.2,
         "net_breadth": -0.16,
-        "R_ratio": 0.415
+        "R_ratio": 0.415,
+        "beta": 0.577
       },
       {
         "date": "2026-02-03",
@@ -364,7 +406,8 @@
         "bear_pct": 27.8,
         "neutral_pct": 61.0,
         "net_breadth": -0.166,
-        "R_ratio": 0.402
+        "R_ratio": 0.402,
+        "beta": 0.578
       },
       {
         "date": "2026-02-04",
@@ -372,7 +415,8 @@
         "bear_pct": 27.8,
         "neutral_pct": 60.8,
         "net_breadth": -0.164,
-        "R_ratio": 0.409
+        "R_ratio": 0.409,
+        "beta": 0.578
       },
       {
         "date": "2026-02-05",
@@ -380,7 +424,8 @@
         "bear_pct": 27.8,
         "neutral_pct": 60.6,
         "net_breadth": -0.162,
-        "R_ratio": 0.417
+        "R_ratio": 0.417,
+        "beta": 0.578
       },
       {
         "date": "2026-02-06",
@@ -388,7 +433,8 @@
         "bear_pct": 27.8,
         "neutral_pct": 60.2,
         "net_breadth": -0.158,
-        "R_ratio": 0.432
+        "R_ratio": 0.432,
+        "beta": 0.577
       },
       {
         "date": "2026-02-09",
@@ -396,7 +442,8 @@
         "bear_pct": 27.4,
         "neutral_pct": 60.4,
         "net_breadth": -0.152,
-        "R_ratio": 0.446
+        "R_ratio": 0.446,
+        "beta": 0.576
       },
       {
         "date": "2026-02-10",
@@ -404,7 +451,8 @@
         "bear_pct": 27.4,
         "neutral_pct": 60.4,
         "net_breadth": -0.152,
-        "R_ratio": 0.446
+        "R_ratio": 0.446,
+        "beta": 0.576
       },
       {
         "date": "2026-02-11",
@@ -412,7 +460,8 @@
         "bear_pct": 27.4,
         "neutral_pct": 60.6,
         "net_breadth": -0.154,
-        "R_ratio": 0.438
+        "R_ratio": 0.438,
+        "beta": 0.576
       },
       {
         "date": "2026-02-12",
@@ -420,7 +469,8 @@
         "bear_pct": 27.6,
         "neutral_pct": 59.5,
         "net_breadth": -0.147,
-        "R_ratio": 0.466
+        "R_ratio": 0.466,
+        "beta": 0.575
       },
       {
         "date": "2026-02-13",
@@ -428,7 +478,8 @@
         "bear_pct": 27.4,
         "neutral_pct": 59.7,
         "net_breadth": -0.145,
-        "R_ratio": 0.469
+        "R_ratio": 0.469,
+        "beta": 0.574
       },
       {
         "date": "2026-02-16",
@@ -436,7 +487,8 @@
         "bear_pct": 27.2,
         "neutral_pct": 59.9,
         "net_breadth": -0.143,
-        "R_ratio": 0.473
+        "R_ratio": 0.473,
+        "beta": 0.574
       },
       {
         "date": "2026-02-17",
@@ -444,7 +496,8 @@
         "bear_pct": 27.4,
         "neutral_pct": 59.5,
         "net_breadth": -0.143,
-        "R_ratio": 0.477
+        "R_ratio": 0.477,
+        "beta": 0.574
       },
       {
         "date": "2026-02-18",
@@ -452,7 +505,8 @@
         "bear_pct": 27.0,
         "neutral_pct": 59.9,
         "net_breadth": -0.139,
-        "R_ratio": 0.484
+        "R_ratio": 0.484,
+        "beta": 0.573
       },
       {
         "date": "2026-02-19",
@@ -460,7 +514,8 @@
         "bear_pct": 27.4,
         "neutral_pct": 59.7,
         "net_breadth": -0.145,
-        "R_ratio": 0.469
+        "R_ratio": 0.469,
+        "beta": 0.574
       },
       {
         "date": "2026-02-20",
@@ -468,7 +523,8 @@
         "bear_pct": 27.4,
         "neutral_pct": 59.7,
         "net_breadth": -0.145,
-        "R_ratio": 0.469
+        "R_ratio": 0.469,
+        "beta": 0.574
       },
       {
         "date": "2026-02-23",
@@ -476,7 +532,8 @@
         "bear_pct": 27.4,
         "neutral_pct": 59.7,
         "net_breadth": -0.145,
-        "R_ratio": 0.469
+        "R_ratio": 0.469,
+        "beta": 0.574
       },
       {
         "date": "2026-02-24",
@@ -484,7 +541,8 @@
         "bear_pct": 27.0,
         "neutral_pct": 60.1,
         "net_breadth": -0.141,
-        "R_ratio": 0.477
+        "R_ratio": 0.477,
+        "beta": 0.573
       },
       {
         "date": "2026-02-25",
@@ -492,7 +550,8 @@
         "bear_pct": 27.0,
         "neutral_pct": 59.9,
         "net_breadth": -0.139,
-        "R_ratio": 0.484
+        "R_ratio": 0.484,
+        "beta": 0.573
       },
       {
         "date": "2026-02-26",
@@ -500,7 +559,8 @@
         "bear_pct": 27.2,
         "neutral_pct": 59.7,
         "net_breadth": -0.141,
-        "R_ratio": 0.481
+        "R_ratio": 0.481,
+        "beta": 0.573
       },
       {
         "date": "2026-02-27",
@@ -508,7 +568,8 @@
         "bear_pct": 27.2,
         "neutral_pct": 59.7,
         "net_breadth": -0.141,
-        "R_ratio": 0.481
+        "R_ratio": 0.481,
+        "beta": 0.573
       },
       {
         "date": "2026-03-02",
@@ -516,7 +577,8 @@
         "bear_pct": 27.2,
         "neutral_pct": 59.9,
         "net_breadth": -0.143,
-        "R_ratio": 0.473
+        "R_ratio": 0.473,
+        "beta": 0.574
       },
       {
         "date": "2026-03-04",
@@ -524,7 +586,8 @@
         "bear_pct": 27.8,
         "neutral_pct": 59.3,
         "net_breadth": -0.149,
-        "R_ratio": 0.462
+        "R_ratio": 0.462,
+        "beta": 0.575
       },
       {
         "date": "2026-03-05",
@@ -532,7 +595,8 @@
         "bear_pct": 28.1,
         "neutral_pct": 59.2,
         "net_breadth": -0.154,
-        "R_ratio": 0.451
+        "R_ratio": 0.451,
+        "beta": 0.576
       },
       {
         "date": "2026-03-06",
@@ -540,7 +604,8 @@
         "bear_pct": 28.1,
         "neutral_pct": 59.5,
         "net_breadth": -0.157,
-        "R_ratio": 0.444
+        "R_ratio": 0.444,
+        "beta": 0.577
       },
       {
         "date": "2026-03-09",
@@ -548,7 +613,8 @@
         "bear_pct": 27.6,
         "neutral_pct": 60.0,
         "net_breadth": -0.152,
-        "R_ratio": 0.45
+        "R_ratio": 0.45,
+        "beta": 0.576
       },
       {
         "date": "2026-03-10",
@@ -556,7 +622,8 @@
         "bear_pct": 27.6,
         "neutral_pct": 60.0,
         "net_breadth": -0.152,
-        "R_ratio": 0.45
+        "R_ratio": 0.45,
+        "beta": 0.576
       },
       {
         "date": "2026-03-11",
@@ -564,7 +631,8 @@
         "bear_pct": 28.1,
         "neutral_pct": 59.5,
         "net_breadth": -0.157,
-        "R_ratio": 0.444
+        "R_ratio": 0.444,
+        "beta": 0.577
       },
       {
         "date": "2026-03-12",
@@ -572,7 +640,8 @@
         "bear_pct": 28.1,
         "neutral_pct": 59.2,
         "net_breadth": -0.154,
-        "R_ratio": 0.451
+        "R_ratio": 0.451,
+        "beta": 0.576
       },
       {
         "date": "2026-03-13",
@@ -580,7 +649,8 @@
         "bear_pct": 28.3,
         "neutral_pct": 59.0,
         "net_breadth": -0.156,
-        "R_ratio": 0.448
+        "R_ratio": 0.448,
+        "beta": 0.577
       },
       {
         "date": "2026-03-16",
@@ -588,7 +658,8 @@
         "bear_pct": 28.3,
         "neutral_pct": 59.0,
         "net_breadth": -0.156,
-        "R_ratio": 0.448
+        "R_ratio": 0.448,
+        "beta": 0.577
       },
       {
         "date": "2026-03-17",
@@ -596,7 +667,8 @@
         "bear_pct": 28.3,
         "neutral_pct": 58.8,
         "net_breadth": -0.154,
-        "R_ratio": 0.455
+        "R_ratio": 0.455,
+        "beta": 0.577
       },
       {
         "date": "2026-03-18",
@@ -604,7 +676,8 @@
         "bear_pct": 28.3,
         "neutral_pct": 59.0,
         "net_breadth": -0.156,
-        "R_ratio": 0.448
+        "R_ratio": 0.448,
+        "beta": 0.577
       },
       {
         "date": "2026-03-19",
@@ -612,7 +685,8 @@
         "bear_pct": 28.3,
         "neutral_pct": 58.8,
         "net_breadth": -0.154,
-        "R_ratio": 0.455
+        "R_ratio": 0.455,
+        "beta": 0.577
       },
       {
         "date": "2026-03-20",
@@ -620,7 +694,8 @@
         "bear_pct": 28.3,
         "neutral_pct": 58.6,
         "net_breadth": -0.152,
-        "R_ratio": 0.463
+        "R_ratio": 0.463,
+        "beta": 0.576
       },
       {
         "date": "2026-03-23",
@@ -628,7 +703,8 @@
         "bear_pct": 28.2,
         "neutral_pct": 58.7,
         "net_breadth": -0.151,
-        "R_ratio": 0.463
+        "R_ratio": 0.463,
+        "beta": 0.576
       },
       {
         "date": "2026-03-24",
@@ -636,7 +712,8 @@
         "bear_pct": 28.0,
         "neutral_pct": 58.9,
         "net_breadth": -0.149,
-        "R_ratio": 0.466
+        "R_ratio": 0.466,
+        "beta": 0.575
       },
       {
         "date": "2026-03-25",
@@ -644,7 +721,8 @@
         "bear_pct": 28.0,
         "neutral_pct": 58.7,
         "net_breadth": -0.147,
-        "R_ratio": 0.474
+        "R_ratio": 0.474,
+        "beta": 0.575
       },
       {
         "date": "2026-03-27",
@@ -652,7 +730,8 @@
         "bear_pct": 28.0,
         "neutral_pct": 58.7,
         "net_breadth": -0.147,
-        "R_ratio": 0.474
+        "R_ratio": 0.474,
+        "beta": 0.575
       },
       {
         "date": "2026-03-30",
@@ -660,7 +739,8 @@
         "bear_pct": 28.0,
         "neutral_pct": 57.9,
         "net_breadth": -0.139,
-        "R_ratio": 0.504
+        "R_ratio": 0.504,
+        "beta": 0.574
       },
       {
         "date": "2026-04-01",
@@ -668,7 +748,8 @@
         "bear_pct": 28.0,
         "neutral_pct": 57.9,
         "net_breadth": -0.139,
-        "R_ratio": 0.504
+        "R_ratio": 0.504,
+        "beta": 0.574
       },
       {
         "date": "2026-04-02",
@@ -676,7 +757,8 @@
         "bear_pct": 27.8,
         "neutral_pct": 58.1,
         "net_breadth": -0.137,
-        "R_ratio": 0.508
+        "R_ratio": 0.508,
+        "beta": 0.573
       },
       {
         "date": "2026-04-06",
@@ -684,7 +766,8 @@
         "bear_pct": 27.4,
         "neutral_pct": 58.7,
         "net_breadth": -0.135,
-        "R_ratio": 0.508
+        "R_ratio": 0.508,
+        "beta": 0.573
       },
       {
         "date": "2026-04-07",
@@ -692,7 +775,8 @@
         "bear_pct": 27.2,
         "neutral_pct": 58.9,
         "net_breadth": -0.133,
-        "R_ratio": 0.512
+        "R_ratio": 0.512,
+        "beta": 0.572
       },
       {
         "date": "2026-04-08",
@@ -700,7 +784,8 @@
         "bear_pct": 27.4,
         "neutral_pct": 58.5,
         "net_breadth": -0.133,
-        "R_ratio": 0.515
+        "R_ratio": 0.515,
+        "beta": 0.572
       },
       {
         "date": "2026-04-09",
@@ -708,7 +793,8 @@
         "bear_pct": 27.3,
         "neutral_pct": 58.3,
         "net_breadth": -0.129,
-        "R_ratio": 0.527
+        "R_ratio": 0.527,
+        "beta": 0.572
       },
       {
         "date": "2026-04-10",
@@ -716,7 +802,8 @@
         "bear_pct": 27.1,
         "neutral_pct": 58.3,
         "net_breadth": -0.125,
-        "R_ratio": 0.539
+        "R_ratio": 0.539,
+        "beta": 0.571
       },
       {
         "date": "2026-04-13",
@@ -724,7 +811,8 @@
         "bear_pct": 27.1,
         "neutral_pct": 58.3,
         "net_breadth": -0.125,
-        "R_ratio": 0.539
+        "R_ratio": 0.539,
+        "beta": 0.571
       },
       {
         "date": "2026-04-15",
@@ -732,7 +820,8 @@
         "bear_pct": 26.4,
         "neutral_pct": 59.2,
         "net_breadth": -0.12,
-        "R_ratio": 0.544
+        "R_ratio": 0.544,
+        "beta": 0.569
       },
       {
         "date": "2026-04-16",
@@ -740,7 +829,8 @@
         "bear_pct": 26.4,
         "neutral_pct": 58.8,
         "net_breadth": -0.116,
-        "R_ratio": 0.56
+        "R_ratio": 0.56,
+        "beta": 0.569
       }
     ]
   },
@@ -751,7 +841,7 @@
       "median_truevx": 96.9,
       "breadth_pct": 1.0,
       "state": "HOT",
-      "momentum_7d": 4.7,
+      "momentum_7d": 0.5,
       "ignition_alert": true,
       "stock_count": 17,
       "cascade_followers": [],
@@ -764,7 +854,7 @@
       "median_truevx": 87.5,
       "breadth_pct": 0.882,
       "state": "HOT",
-      "momentum_7d": 3.7,
+      "momentum_7d": 11.9,
       "ignition_alert": true,
       "stock_count": 17,
       "cascade_followers": [],
@@ -777,7 +867,7 @@
       "median_truevx": 87.4,
       "breadth_pct": 0.831,
       "state": "HOT",
-      "momentum_7d": 3.7,
+      "momentum_7d": 0.3,
       "ignition_alert": true,
       "stock_count": 59,
       "cascade_followers": [
@@ -795,7 +885,7 @@
       "median_truevx": 84.7,
       "breadth_pct": 0.75,
       "state": "HOT",
-      "momentum_7d": 3.5,
+      "momentum_7d": -1.1,
       "ignition_alert": true,
       "stock_count": 48,
       "cascade_followers": [],
@@ -808,7 +898,7 @@
       "median_truevx": 75.2,
       "breadth_pct": 0.6,
       "state": "WARM",
-      "momentum_7d": 2.5,
+      "momentum_7d": 10.9,
       "ignition_alert": true,
       "stock_count": 10,
       "cascade_followers": [
@@ -825,7 +915,7 @@
       "median_truevx": 75.0,
       "breadth_pct": 0.857,
       "state": "HOT",
-      "momentum_7d": 2.5,
+      "momentum_7d": 1.5,
       "ignition_alert": true,
       "stock_count": 35,
       "cascade_followers": [
@@ -843,7 +933,7 @@
       "median_truevx": 72.7,
       "breadth_pct": 0.777,
       "state": "HOT",
-      "momentum_7d": 2.3,
+      "momentum_7d": 10.9,
       "ignition_alert": true,
       "stock_count": 94,
       "cascade_followers": [
@@ -859,7 +949,7 @@
       "median_truevx": 69.9,
       "breadth_pct": 0.615,
       "state": "WARM",
-      "momentum_7d": 2.0,
+      "momentum_7d": 12.2,
       "ignition_alert": true,
       "stock_count": 26,
       "cascade_followers": [
@@ -877,7 +967,7 @@
       "median_truevx": 69.5,
       "breadth_pct": 0.643,
       "state": "WARM",
-      "momentum_7d": 1.9,
+      "momentum_7d": 14.4,
       "ignition_alert": true,
       "stock_count": 14,
       "cascade_followers": [],
@@ -890,7 +980,7 @@
       "median_truevx": 66.4,
       "breadth_pct": 0.667,
       "state": "HOT",
-      "momentum_7d": 1.6,
+      "momentum_7d": 8.8,
       "ignition_alert": true,
       "stock_count": 15,
       "cascade_followers": [],
@@ -903,7 +993,7 @@
       "median_truevx": 64.1,
       "breadth_pct": 0.615,
       "state": "WARM",
-      "momentum_7d": 1.4,
+      "momentum_7d": 26.8,
       "ignition_alert": true,
       "stock_count": 13,
       "cascade_followers": [],
@@ -916,7 +1006,7 @@
       "median_truevx": 53.1,
       "breadth_pct": 0.7,
       "state": "HOT",
-      "momentum_7d": 0.3,
+      "momentum_7d": -9.6,
       "ignition_alert": true,
       "stock_count": 10,
       "cascade_followers": [],
@@ -929,7 +1019,7 @@
       "median_truevx": 50.0,
       "breadth_pct": 0.5,
       "state": "WARM",
-      "momentum_7d": 0.0,
+      "momentum_7d": -4.2,
       "ignition_alert": false,
       "stock_count": 28,
       "cascade_followers": [],
@@ -942,7 +1032,7 @@
       "median_truevx": 48.6,
       "breadth_pct": 0.412,
       "state": "COOLING",
-      "momentum_7d": -0.1,
+      "momentum_7d": 1.8,
       "ignition_alert": false,
       "stock_count": 17,
       "cascade_followers": [],
@@ -955,7 +1045,7 @@
       "median_truevx": 43.3,
       "breadth_pct": 0.444,
       "state": "COOLING",
-      "momentum_7d": -0.7,
+      "momentum_7d": 0.7,
       "ignition_alert": false,
       "stock_count": 27,
       "cascade_followers": [],
@@ -968,7 +1058,7 @@
       "median_truevx": 39.0,
       "breadth_pct": 0.364,
       "state": "COOLING",
-      "momentum_7d": -1.1,
+      "momentum_7d": 21.2,
       "ignition_alert": false,
       "stock_count": 11,
       "cascade_followers": [],
@@ -981,7 +1071,7 @@
       "median_truevx": 33.7,
       "breadth_pct": 0.273,
       "state": "COLD",
-      "momentum_7d": -1.6,
+      "momentum_7d": 7.0,
       "ignition_alert": false,
       "stock_count": 22,
       "cascade_followers": [],
@@ -1005,6 +1095,90 @@
   },
   "f7_stocks": [
     {
+      "symbol": "WAAREEENER",
+      "name": "Waaree Energies",
+      "sector": "Capital Goods",
+      "truevx": 100,
+      "mean_short": 95,
+      "mean_mid": 68,
+      "mean_long": 73,
+      "state": "EARLY_RECOVERY",
+      "level_zone": "STRETCHED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 1.7,
+      "expected_222d": 17.1
+    },
+    {
+      "symbol": "ANANDRATHI",
+      "name": "Anand Rathi Wealth",
+      "sector": "Financial Services",
+      "truevx": 100,
+      "mean_short": 100,
+      "mean_mid": 80,
+      "mean_long": 82,
+      "state": "EARLY_RECOVERY",
+      "level_zone": "STRETCHED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 1.7,
+      "expected_222d": 17.1
+    },
+    {
+      "symbol": "APARINDS",
+      "name": "Apar Industries",
+      "sector": "Capital Goods",
+      "truevx": 100,
+      "mean_short": 100,
+      "mean_mid": 76,
+      "mean_long": 73,
+      "state": "ACCELERATING",
+      "level_zone": "STRETCHED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 2.1,
+      "expected_222d": 24.1
+    },
+    {
+      "symbol": "TVSMOTOR",
+      "name": "TVS Motor Company",
+      "sector": "Automobile and Auto Components",
+      "truevx": 100,
+      "mean_short": 93,
+      "mean_mid": 98,
+      "mean_long": 93,
+      "state": "LATE_DECLINE",
+      "level_zone": "STRETCHED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 2.3,
+      "expected_222d": 19.3
+    },
+    {
+      "symbol": "TIMKEN",
+      "name": "Timken India",
+      "sector": "Capital Goods",
+      "truevx": 100,
+      "mean_short": 99,
+      "mean_mid": 88,
+      "mean_long": 65,
+      "state": "ACCELERATING",
+      "level_zone": "STRETCHED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 2.1,
+      "expected_222d": 24.1
+    },
+    {
+      "symbol": "MCX",
+      "name": "Multi Commodity Exchange of India",
+      "sector": "Financial Services",
+      "truevx": 100,
+      "mean_short": 100,
+      "mean_mid": 100,
+      "mean_long": 97,
+      "state": "ACCELERATING",
+      "level_zone": "STRETCHED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 2.1,
+      "expected_222d": 24.1
+    },
+    {
       "symbol": "BSE",
       "name": "BSE",
       "sector": "Financial Services",
@@ -1019,22 +1193,8 @@
       "expected_222d": 24.1
     },
     {
-      "symbol": "TITAN",
-      "name": "TITAN",
-      "sector": "Consumer Durables",
-      "truevx": 100,
-      "mean_short": 100,
-      "mean_mid": 100,
-      "mean_long": 82,
-      "state": "ACCELERATING",
-      "level_zone": "STRETCHED",
-      "flow_status": "IN_THE_FLOW",
-      "expected_22d": 2.1,
-      "expected_222d": 24.1
-    },
-    {
       "symbol": "POWERINDIA",
-      "name": "POWERINDIA",
+      "name": "Hitachi Energy India",
       "sector": "Capital Goods",
       "truevx": 100,
       "mean_short": 100,
@@ -1047,36 +1207,8 @@
       "expected_222d": 24.1
     },
     {
-      "symbol": "CUMMINSIND",
-      "name": "CUMMINSIND",
-      "sector": "Capital Goods",
-      "truevx": 100,
-      "mean_short": 100,
-      "mean_mid": 87,
-      "mean_long": 88,
-      "state": "EARLY_RECOVERY",
-      "level_zone": "STRETCHED",
-      "flow_status": "IN_THE_FLOW",
-      "expected_22d": 1.7,
-      "expected_222d": 17.1
-    },
-    {
-      "symbol": "MCX",
-      "name": "MCX",
-      "sector": "Financial Services",
-      "truevx": 100,
-      "mean_short": 100,
-      "mean_mid": 100,
-      "mean_long": 97,
-      "state": "ACCELERATING",
-      "level_zone": "STRETCHED",
-      "flow_status": "IN_THE_FLOW",
-      "expected_22d": 2.1,
-      "expected_222d": 24.1
-    },
-    {
       "symbol": "NETWEB",
-      "name": "NETWEB",
+      "name": "Netweb Technologies India",
       "sector": "Information Technology",
       "truevx": 100,
       "mean_short": 98,
@@ -1089,78 +1221,36 @@
       "expected_222d": 17.6
     },
     {
-      "symbol": "WAAREEENER",
-      "name": "WAAREEENER",
-      "sector": "Capital Goods",
-      "truevx": 100,
-      "mean_short": 95,
-      "mean_mid": 68,
-      "mean_long": 73,
-      "state": "EARLY_RECOVERY",
-      "level_zone": "STRETCHED",
-      "flow_status": "IN_THE_FLOW",
-      "expected_22d": 1.7,
-      "expected_222d": 17.1
-    },
-    {
-      "symbol": "ANANDRATHI",
-      "name": "ANANDRATHI",
-      "sector": "Financial Services",
+      "symbol": "TITAN",
+      "name": "Titan Company",
+      "sector": "Consumer Durables",
       "truevx": 100,
       "mean_short": 100,
-      "mean_mid": 80,
+      "mean_mid": 100,
       "mean_long": 82,
+      "state": "ACCELERATING",
+      "level_zone": "STRETCHED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 2.1,
+      "expected_222d": 24.1
+    },
+    {
+      "symbol": "CUMMINSIND",
+      "name": "Cummins India",
+      "sector": "Capital Goods",
+      "truevx": 100,
+      "mean_short": 100,
+      "mean_mid": 87,
+      "mean_long": 88,
       "state": "EARLY_RECOVERY",
       "level_zone": "STRETCHED",
       "flow_status": "IN_THE_FLOW",
       "expected_22d": 1.7,
       "expected_222d": 17.1
-    },
-    {
-      "symbol": "TIMKEN",
-      "name": "TIMKEN",
-      "sector": "Capital Goods",
-      "truevx": 100,
-      "mean_short": 99,
-      "mean_mid": 88,
-      "mean_long": 65,
-      "state": "ACCELERATING",
-      "level_zone": "STRETCHED",
-      "flow_status": "IN_THE_FLOW",
-      "expected_22d": 2.1,
-      "expected_222d": 24.1
-    },
-    {
-      "symbol": "TVSMOTOR",
-      "name": "TVSMOTOR",
-      "sector": "Automobile and Auto Components",
-      "truevx": 100,
-      "mean_short": 93,
-      "mean_mid": 98,
-      "mean_long": 93,
-      "state": "LATE_DECLINE",
-      "level_zone": "STRETCHED",
-      "flow_status": "IN_THE_FLOW",
-      "expected_22d": 2.3,
-      "expected_222d": 19.3
-    },
-    {
-      "symbol": "APARINDS",
-      "name": "APARINDS",
-      "sector": "Capital Goods",
-      "truevx": 100,
-      "mean_short": 100,
-      "mean_mid": 76,
-      "mean_long": 73,
-      "state": "ACCELERATING",
-      "level_zone": "STRETCHED",
-      "flow_status": "IN_THE_FLOW",
-      "expected_22d": 2.1,
-      "expected_222d": 24.1
     },
     {
       "symbol": "KIRLOSENG",
-      "name": "KIRLOSENG",
+      "name": "Kirloskar Oil Eng",
       "sector": "Capital Goods",
       "truevx": 100,
       "mean_short": 100,
@@ -1174,7 +1264,7 @@
     },
     {
       "symbol": "GALLANTT",
-      "name": "GALLANTT",
+      "name": "Gallantt Ispat",
       "sector": "Capital Goods",
       "truevx": 100,
       "mean_short": 99,
@@ -1188,7 +1278,7 @@
     },
     {
       "symbol": "ADANIENSOL",
-      "name": "ADANIENSOL",
+      "name": "Adani Energy Solutions",
       "sector": "Power",
       "truevx": 100,
       "mean_short": 100,
@@ -1202,7 +1292,7 @@
     },
     {
       "symbol": "SYRMA",
-      "name": "SYRMA",
+      "name": "Syrma SGS Technology",
       "sector": "Capital Goods",
       "truevx": 100,
       "mean_short": 89,
@@ -1216,7 +1306,7 @@
     },
     {
       "symbol": "BAJAJ-AUTO",
-      "name": "BAJAJ-AUTO",
+      "name": "Bajaj Auto",
       "sector": "Automobile and Auto Components",
       "truevx": 100,
       "mean_short": 100,
@@ -1230,7 +1320,7 @@
     },
     {
       "symbol": "ATHERENERG",
-      "name": "ATHERENERG",
+      "name": "Ather Energy",
       "sector": "Automobile and Auto Components",
       "truevx": 100,
       "mean_short": 95,
@@ -1244,7 +1334,7 @@
     },
     {
       "symbol": "GRSE",
-      "name": "GRSE",
+      "name": "Garden Reach Shipbuilders & Engineers",
       "sector": "Capital Goods",
       "truevx": 100,
       "mean_short": 84,
@@ -1258,7 +1348,7 @@
     },
     {
       "symbol": "GVT&D",
-      "name": "GVT&D",
+      "name": "GE Vernova T&D India",
       "sector": "Capital Goods",
       "truevx": 100,
       "mean_short": 100,
@@ -1272,7 +1362,7 @@
     },
     {
       "symbol": "LAURUSLABS",
-      "name": "LAURUSLABS",
+      "name": "Laurus Labs",
       "sector": "Healthcare",
       "truevx": 100,
       "mean_short": 100,
@@ -1286,7 +1376,7 @@
     },
     {
       "symbol": "CEATLTD",
-      "name": "CEATLTD",
+      "name": "Ceat",
       "sector": "Automobile and Auto Components",
       "truevx": 100,
       "mean_short": 99,
@@ -1300,7 +1390,7 @@
     },
     {
       "symbol": "HDFCAMC",
-      "name": "HDFCAMC",
+      "name": "HDFC Asset Management Company",
       "sector": "Financial Services",
       "truevx": 100,
       "mean_short": 90,
@@ -1314,7 +1404,7 @@
     },
     {
       "symbol": "KPIL",
-      "name": "KPIL",
+      "name": "Kalpataru Projects International",
       "sector": "Construction",
       "truevx": 100,
       "mean_short": 99,
@@ -1328,7 +1418,7 @@
     },
     {
       "symbol": "HINDALCO",
-      "name": "HINDALCO",
+      "name": "Hindalco Industries",
       "sector": "Metals & Mining",
       "truevx": 100,
       "mean_short": 100,
@@ -1342,7 +1432,7 @@
     },
     {
       "symbol": "ADANIPORTS",
-      "name": "ADANIPORTS",
+      "name": "Adani Ports and Special Economic Zone",
       "sector": "Services",
       "truevx": 100,
       "mean_short": 93,
@@ -1356,7 +1446,7 @@
     },
     {
       "symbol": "EMCURE",
-      "name": "EMCURE",
+      "name": "Emcure Pharmaceuticals",
       "sector": "Healthcare",
       "truevx": 100,
       "mean_short": 100,
@@ -1370,7 +1460,7 @@
     },
     {
       "symbol": "FORCEMOT",
-      "name": "FORCEMOT",
+      "name": "Force Motors",
       "sector": "Automobile and Auto Components",
       "truevx": 100,
       "mean_short": 94,
@@ -1384,7 +1474,7 @@
     },
     {
       "symbol": "SIEMENS",
-      "name": "SIEMENS",
+      "name": "Siemens",
       "sector": "Capital Goods",
       "truevx": 100,
       "mean_short": 99,
@@ -1398,7 +1488,7 @@
     },
     {
       "symbol": "SCHNEIDER",
-      "name": "SCHNEIDER",
+      "name": "Schneider Electric Infrastructure",
       "sector": "Capital Goods",
       "truevx": 100,
       "mean_short": 93,
@@ -1412,7 +1502,7 @@
     },
     {
       "symbol": "NAM-INDIA",
-      "name": "NAM-INDIA",
+      "name": "Nippon Life India Asset Management",
       "sector": "Financial Services",
       "truevx": 100,
       "mean_short": 92,
@@ -1427,18 +1517,130 @@
   ],
   "in_the_flow": [
     {
-      "symbol": "MCX",
-      "name": "MCX",
+      "symbol": "WAAREEENER",
+      "name": "Waaree Energies",
+      "sector": "Capital Goods",
+      "truevx": 100,
+      "mean_short": 95,
+      "mean_mid": 68,
+      "mean_long": 73,
+      "state": "EARLY_RECOVERY",
+      "level_zone": "STRETCHED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 1.7,
+      "expected_222d": 17.1
+    },
+    {
+      "symbol": "ANANDRATHI",
+      "name": "Anand Rathi Wealth",
       "sector": "Financial Services",
       "truevx": 100,
       "mean_short": 100,
-      "mean_mid": 100,
-      "mean_long": 97,
+      "mean_mid": 80,
+      "mean_long": 82,
+      "state": "EARLY_RECOVERY",
+      "level_zone": "STRETCHED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 1.7,
+      "expected_222d": 17.1
+    },
+    {
+      "symbol": "APARINDS",
+      "name": "Apar Industries",
+      "sector": "Capital Goods",
+      "truevx": 100,
+      "mean_short": 100,
+      "mean_mid": 76,
+      "mean_long": 73,
       "state": "ACCELERATING",
       "level_zone": "STRETCHED",
       "flow_status": "IN_THE_FLOW",
       "expected_22d": 2.1,
       "expected_222d": 24.1
+    },
+    {
+      "symbol": "KAJARIACER",
+      "name": "Kajaria Ceramics",
+      "sector": "Consumer Durables",
+      "truevx": 100,
+      "mean_short": 85,
+      "mean_mid": 59,
+      "mean_long": 59,
+      "state": "EARLY_RECOVERY",
+      "level_zone": "ELEVATED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 1.4,
+      "expected_222d": 17.1
+    },
+    {
+      "symbol": "CUMMINSIND",
+      "name": "Cummins India",
+      "sector": "Capital Goods",
+      "truevx": 100,
+      "mean_short": 100,
+      "mean_mid": 87,
+      "mean_long": 88,
+      "state": "EARLY_RECOVERY",
+      "level_zone": "STRETCHED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 1.7,
+      "expected_222d": 17.1
+    },
+    {
+      "symbol": "LLOYDSME",
+      "name": "Lloyds Metals And Energy",
+      "sector": "Metals & Mining",
+      "truevx": 100,
+      "mean_short": 76,
+      "mean_mid": 51,
+      "mean_long": 66,
+      "state": "EARLY_RECOVERY",
+      "level_zone": "ELEVATED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 1.4,
+      "expected_222d": 17.1
+    },
+    {
+      "symbol": "TITAN",
+      "name": "Titan Company",
+      "sector": "Consumer Durables",
+      "truevx": 100,
+      "mean_short": 100,
+      "mean_mid": 100,
+      "mean_long": 82,
+      "state": "ACCELERATING",
+      "level_zone": "STRETCHED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 2.1,
+      "expected_222d": 24.1
+    },
+    {
+      "symbol": "POWERINDIA",
+      "name": "Hitachi Energy India",
+      "sector": "Capital Goods",
+      "truevx": 100,
+      "mean_short": 100,
+      "mean_mid": 89,
+      "mean_long": 85,
+      "state": "ACCELERATING",
+      "level_zone": "STRETCHED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 2.1,
+      "expected_222d": 24.1
+    },
+    {
+      "symbol": "WELCORP",
+      "name": "Welspun Corp",
+      "sector": "Capital Goods",
+      "truevx": 100,
+      "mean_short": 85,
+      "mean_mid": 52,
+      "mean_long": 70,
+      "state": "EARLY_RECOVERY",
+      "level_zone": "ELEVATED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 1.4,
+      "expected_222d": 17.1
     },
     {
       "symbol": "BSE",
@@ -1455,120 +1657,22 @@
       "expected_222d": 24.1
     },
     {
-      "symbol": "KAJARIACER",
-      "name": "KAJARIACER",
-      "sector": "Consumer Durables",
-      "truevx": 100,
-      "mean_short": 85,
-      "mean_mid": 59,
-      "mean_long": 59,
-      "state": "EARLY_RECOVERY",
-      "level_zone": "ELEVATED",
-      "flow_status": "IN_THE_FLOW",
-      "expected_22d": 1.4,
-      "expected_222d": 17.1
-    },
-    {
-      "symbol": "CUMMINSIND",
-      "name": "CUMMINSIND",
-      "sector": "Capital Goods",
-      "truevx": 100,
-      "mean_short": 100,
-      "mean_mid": 87,
-      "mean_long": 88,
-      "state": "EARLY_RECOVERY",
-      "level_zone": "STRETCHED",
-      "flow_status": "IN_THE_FLOW",
-      "expected_22d": 1.7,
-      "expected_222d": 17.1
-    },
-    {
-      "symbol": "LLOYDSME",
-      "name": "LLOYDSME",
-      "sector": "Metals & Mining",
-      "truevx": 100,
-      "mean_short": 76,
-      "mean_mid": 51,
-      "mean_long": 66,
-      "state": "EARLY_RECOVERY",
-      "level_zone": "ELEVATED",
-      "flow_status": "IN_THE_FLOW",
-      "expected_22d": 1.4,
-      "expected_222d": 17.1
-    },
-    {
-      "symbol": "POWERINDIA",
-      "name": "POWERINDIA",
-      "sector": "Capital Goods",
-      "truevx": 100,
-      "mean_short": 100,
-      "mean_mid": 89,
-      "mean_long": 85,
-      "state": "ACCELERATING",
-      "level_zone": "STRETCHED",
-      "flow_status": "IN_THE_FLOW",
-      "expected_22d": 2.1,
-      "expected_222d": 24.1
-    },
-    {
-      "symbol": "TITAN",
-      "name": "TITAN",
-      "sector": "Consumer Durables",
-      "truevx": 100,
-      "mean_short": 100,
-      "mean_mid": 100,
-      "mean_long": 82,
-      "state": "ACCELERATING",
-      "level_zone": "STRETCHED",
-      "flow_status": "IN_THE_FLOW",
-      "expected_22d": 2.1,
-      "expected_222d": 24.1
-    },
-    {
-      "symbol": "ANANDRATHI",
-      "name": "ANANDRATHI",
+      "symbol": "MCX",
+      "name": "Multi Commodity Exchange of India",
       "sector": "Financial Services",
       "truevx": 100,
       "mean_short": 100,
-      "mean_mid": 80,
-      "mean_long": 82,
-      "state": "EARLY_RECOVERY",
+      "mean_mid": 100,
+      "mean_long": 97,
+      "state": "ACCELERATING",
       "level_zone": "STRETCHED",
       "flow_status": "IN_THE_FLOW",
-      "expected_22d": 1.7,
-      "expected_222d": 17.1
-    },
-    {
-      "symbol": "WELCORP",
-      "name": "WELCORP",
-      "sector": "Capital Goods",
-      "truevx": 100,
-      "mean_short": 85,
-      "mean_mid": 52,
-      "mean_long": 70,
-      "state": "EARLY_RECOVERY",
-      "level_zone": "ELEVATED",
-      "flow_status": "IN_THE_FLOW",
-      "expected_22d": 1.4,
-      "expected_222d": 17.1
-    },
-    {
-      "symbol": "ABB",
-      "name": "ABB",
-      "sector": "Capital Goods",
-      "truevx": 100,
-      "mean_short": 100,
-      "mean_mid": 70,
-      "mean_long": 37,
-      "state": "ACCELERATING",
-      "level_zone": "ELEVATED",
-      "flow_status": "IN_THE_FLOW",
-      "expected_22d": 1.8,
+      "expected_22d": 2.1,
       "expected_222d": 24.1
     },
     {
       "symbol": "LINDEINDIA",
-      "name": "LINDEINDIA",
+      "name": "Linde India",
       "sector": "Chemicals",
       "truevx": 100,
       "mean_short": 95,
@@ -1581,22 +1685,22 @@
       "expected_222d": 24.1
     },
     {
-      "symbol": "THERMAX",
-      "name": "THERMAX",
+      "symbol": "ABB",
+      "name": "ABB India",
       "sector": "Capital Goods",
       "truevx": 100,
-      "mean_short": 77,
-      "mean_mid": 53,
-      "mean_long": 28,
+      "mean_short": 100,
+      "mean_mid": 70,
+      "mean_long": 37,
       "state": "ACCELERATING",
-      "level_zone": "NEUTRAL",
+      "level_zone": "ELEVATED",
       "flow_status": "IN_THE_FLOW",
-      "expected_22d": 1.6,
+      "expected_22d": 1.8,
       "expected_222d": 24.1
     },
     {
       "symbol": "TIMKEN",
-      "name": "TIMKEN",
+      "name": "Timken India",
       "sector": "Capital Goods",
       "truevx": 100,
       "mean_short": 99,
@@ -1609,36 +1713,22 @@
       "expected_222d": 24.1
     },
     {
-      "symbol": "WAAREEENER",
-      "name": "WAAREEENER",
+      "symbol": "THERMAX",
+      "name": "Thermax",
       "sector": "Capital Goods",
       "truevx": 100,
-      "mean_short": 95,
-      "mean_mid": 68,
-      "mean_long": 73,
-      "state": "EARLY_RECOVERY",
-      "level_zone": "STRETCHED",
-      "flow_status": "IN_THE_FLOW",
-      "expected_22d": 1.7,
-      "expected_222d": 17.1
-    },
-    {
-      "symbol": "APARINDS",
-      "name": "APARINDS",
-      "sector": "Capital Goods",
-      "truevx": 100,
-      "mean_short": 100,
-      "mean_mid": 76,
-      "mean_long": 73,
+      "mean_short": 77,
+      "mean_mid": 53,
+      "mean_long": 28,
       "state": "ACCELERATING",
-      "level_zone": "STRETCHED",
+      "level_zone": "NEUTRAL",
       "flow_status": "IN_THE_FLOW",
-      "expected_22d": 2.1,
+      "expected_22d": 1.6,
       "expected_222d": 24.1
     },
     {
       "symbol": "KIRLOSENG",
-      "name": "KIRLOSENG",
+      "name": "Kirloskar Oil Eng",
       "sector": "Capital Goods",
       "truevx": 100,
       "mean_short": 100,
@@ -1651,36 +1741,8 @@
       "expected_222d": 24.1
     },
     {
-      "symbol": "SYRMA",
-      "name": "SYRMA",
-      "sector": "Capital Goods",
-      "truevx": 100,
-      "mean_short": 89,
-      "mean_mid": 72,
-      "mean_long": 81,
-      "state": "EARLY_RECOVERY",
-      "level_zone": "STRETCHED",
-      "flow_status": "IN_THE_FLOW",
-      "expected_22d": 1.7,
-      "expected_222d": 17.1
-    },
-    {
-      "symbol": "GALLANTT",
-      "name": "GALLANTT",
-      "sector": "Capital Goods",
-      "truevx": 100,
-      "mean_short": 99,
-      "mean_mid": 84,
-      "mean_long": 84,
-      "state": "ACCELERATING",
-      "level_zone": "STRETCHED",
-      "flow_status": "IN_THE_FLOW",
-      "expected_22d": 2.1,
-      "expected_222d": 24.1
-    },
-    {
       "symbol": "ADANIENSOL",
-      "name": "ADANIENSOL",
+      "name": "Adani Energy Solutions",
       "sector": "Power",
       "truevx": 100,
       "mean_short": 100,
@@ -1693,108 +1755,22 @@
       "expected_222d": 24.1
     },
     {
-      "symbol": "BAJAJ-AUTO",
-      "name": "BAJAJ-AUTO",
-      "sector": "Automobile and Auto Components",
+      "symbol": "GALLANTT",
+      "name": "Gallantt Ispat",
+      "sector": "Capital Goods",
       "truevx": 100,
-      "mean_short": 100,
-      "mean_mid": 94,
-      "mean_long": 63,
+      "mean_short": 99,
+      "mean_mid": 84,
+      "mean_long": 84,
       "state": "ACCELERATING",
       "level_zone": "STRETCHED",
       "flow_status": "IN_THE_FLOW",
       "expected_22d": 2.1,
       "expected_222d": 24.1
-    }
-  ],
-  "watchlist": [
-    {
-      "symbol": "KAJARIACER",
-      "name": "KAJARIACER",
-      "sector": "Consumer Durables",
-      "truevx": 100,
-      "mean_short": 85,
-      "mean_mid": 59,
-      "mean_long": 59,
-      "state": "EARLY_RECOVERY",
-      "level_zone": "ELEVATED",
-      "flow_status": "IN_THE_FLOW",
-      "expected_22d": 1.4,
-      "expected_222d": 17.1
-    },
-    {
-      "symbol": "LLOYDSME",
-      "name": "LLOYDSME",
-      "sector": "Metals & Mining",
-      "truevx": 100,
-      "mean_short": 76,
-      "mean_mid": 51,
-      "mean_long": 66,
-      "state": "EARLY_RECOVERY",
-      "level_zone": "ELEVATED",
-      "flow_status": "IN_THE_FLOW",
-      "expected_22d": 1.4,
-      "expected_222d": 17.1
-    },
-    {
-      "symbol": "CUMMINSIND",
-      "name": "CUMMINSIND",
-      "sector": "Capital Goods",
-      "truevx": 100,
-      "mean_short": 100,
-      "mean_mid": 87,
-      "mean_long": 88,
-      "state": "EARLY_RECOVERY",
-      "level_zone": "STRETCHED",
-      "flow_status": "IN_THE_FLOW",
-      "expected_22d": 1.7,
-      "expected_222d": 17.1
-    },
-    {
-      "symbol": "ANANDRATHI",
-      "name": "ANANDRATHI",
-      "sector": "Financial Services",
-      "truevx": 100,
-      "mean_short": 100,
-      "mean_mid": 80,
-      "mean_long": 82,
-      "state": "EARLY_RECOVERY",
-      "level_zone": "STRETCHED",
-      "flow_status": "IN_THE_FLOW",
-      "expected_22d": 1.7,
-      "expected_222d": 17.1
-    },
-    {
-      "symbol": "WELCORP",
-      "name": "WELCORP",
-      "sector": "Capital Goods",
-      "truevx": 100,
-      "mean_short": 85,
-      "mean_mid": 52,
-      "mean_long": 70,
-      "state": "EARLY_RECOVERY",
-      "level_zone": "ELEVATED",
-      "flow_status": "IN_THE_FLOW",
-      "expected_22d": 1.4,
-      "expected_222d": 17.1
-    },
-    {
-      "symbol": "WAAREEENER",
-      "name": "WAAREEENER",
-      "sector": "Capital Goods",
-      "truevx": 100,
-      "mean_short": 95,
-      "mean_mid": 68,
-      "mean_long": 73,
-      "state": "EARLY_RECOVERY",
-      "level_zone": "STRETCHED",
-      "flow_status": "IN_THE_FLOW",
-      "expected_22d": 1.7,
-      "expected_222d": 17.1
     },
     {
       "symbol": "SYRMA",
-      "name": "SYRMA",
+      "name": "Syrma SGS Technology",
       "sector": "Capital Goods",
       "truevx": 100,
       "mean_short": 89,
@@ -1808,7 +1784,121 @@
     },
     {
       "symbol": "ATHERENERG",
-      "name": "ATHERENERG",
+      "name": "Ather Energy",
+      "sector": "Automobile and Auto Components",
+      "truevx": 100,
+      "mean_short": 95,
+      "mean_mid": 82,
+      "mean_long": 82,
+      "state": "EARLY_RECOVERY",
+      "level_zone": "STRETCHED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 1.7,
+      "expected_222d": 17.1
+    }
+  ],
+  "watchlist": [
+    {
+      "symbol": "WAAREEENER",
+      "name": "Waaree Energies",
+      "sector": "Capital Goods",
+      "truevx": 100,
+      "mean_short": 95,
+      "mean_mid": 68,
+      "mean_long": 73,
+      "state": "EARLY_RECOVERY",
+      "level_zone": "STRETCHED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 1.7,
+      "expected_222d": 17.1
+    },
+    {
+      "symbol": "ANANDRATHI",
+      "name": "Anand Rathi Wealth",
+      "sector": "Financial Services",
+      "truevx": 100,
+      "mean_short": 100,
+      "mean_mid": 80,
+      "mean_long": 82,
+      "state": "EARLY_RECOVERY",
+      "level_zone": "STRETCHED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 1.7,
+      "expected_222d": 17.1
+    },
+    {
+      "symbol": "WELCORP",
+      "name": "Welspun Corp",
+      "sector": "Capital Goods",
+      "truevx": 100,
+      "mean_short": 85,
+      "mean_mid": 52,
+      "mean_long": 70,
+      "state": "EARLY_RECOVERY",
+      "level_zone": "ELEVATED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 1.4,
+      "expected_222d": 17.1
+    },
+    {
+      "symbol": "KAJARIACER",
+      "name": "Kajaria Ceramics",
+      "sector": "Consumer Durables",
+      "truevx": 100,
+      "mean_short": 85,
+      "mean_mid": 59,
+      "mean_long": 59,
+      "state": "EARLY_RECOVERY",
+      "level_zone": "ELEVATED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 1.4,
+      "expected_222d": 17.1
+    },
+    {
+      "symbol": "CUMMINSIND",
+      "name": "Cummins India",
+      "sector": "Capital Goods",
+      "truevx": 100,
+      "mean_short": 100,
+      "mean_mid": 87,
+      "mean_long": 88,
+      "state": "EARLY_RECOVERY",
+      "level_zone": "STRETCHED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 1.7,
+      "expected_222d": 17.1
+    },
+    {
+      "symbol": "LLOYDSME",
+      "name": "Lloyds Metals And Energy",
+      "sector": "Metals & Mining",
+      "truevx": 100,
+      "mean_short": 76,
+      "mean_mid": 51,
+      "mean_long": 66,
+      "state": "EARLY_RECOVERY",
+      "level_zone": "ELEVATED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 1.4,
+      "expected_222d": 17.1
+    },
+    {
+      "symbol": "SYRMA",
+      "name": "Syrma SGS Technology",
+      "sector": "Capital Goods",
+      "truevx": 100,
+      "mean_short": 89,
+      "mean_mid": 72,
+      "mean_long": 81,
+      "state": "EARLY_RECOVERY",
+      "level_zone": "STRETCHED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 1.7,
+      "expected_222d": 17.1
+    },
+    {
+      "symbol": "ATHERENERG",
+      "name": "Ather Energy",
       "sector": "Automobile and Auto Components",
       "truevx": 100,
       "mean_short": 95,
@@ -1822,7 +1912,7 @@
     },
     {
       "symbol": "GVT&D",
-      "name": "GVT&D",
+      "name": "GE Vernova T&D India",
       "sector": "Capital Goods",
       "truevx": 100,
       "mean_short": 100,
@@ -1836,7 +1926,7 @@
     },
     {
       "symbol": "LAURUSLABS",
-      "name": "LAURUSLABS",
+      "name": "Laurus Labs",
       "sector": "Healthcare",
       "truevx": 100,
       "mean_short": 100,
@@ -1852,7 +1942,7 @@
   "s6_stocks": [
     {
       "symbol": "CONCORDBIO",
-      "name": "CONCORDBIO",
+      "name": "Concord Biotech",
       "sector": "Healthcare",
       "truevx": 1,
       "mean_short": 18,
@@ -1866,7 +1956,7 @@
     },
     {
       "symbol": "JYOTICNC",
-      "name": "JYOTICNC",
+      "name": "Jyoti CNC Automation",
       "sector": "Capital Goods",
       "truevx": 1,
       "mean_short": 20,
@@ -1880,7 +1970,7 @@
     },
     {
       "symbol": "CIPLA",
-      "name": "CIPLA",
+      "name": "Cipla",
       "sector": "Healthcare",
       "truevx": 2,
       "mean_short": 28,
@@ -1894,7 +1984,7 @@
     },
     {
       "symbol": "PATANJALI",
-      "name": "PATANJALI",
+      "name": "Patanjali Foods",
       "sector": "Fast Moving Consumer Goods",
       "truevx": 7,
       "mean_short": 28,
@@ -1908,7 +1998,7 @@
     },
     {
       "symbol": "MAPMYINDIA",
-      "name": "MAPMYINDIA",
+      "name": "C.E. Info Systems",
       "sector": "Information Technology",
       "truevx": 7,
       "mean_short": 4,
@@ -1922,7 +2012,7 @@
     },
     {
       "symbol": "SWIGGY",
-      "name": "SWIGGY",
+      "name": "Swiggy",
       "sector": "Consumer Services",
       "truevx": 9,
       "mean_short": 11,
@@ -1936,7 +2026,7 @@
     },
     {
       "symbol": "GSPL",
-      "name": "GSPL",
+      "name": "Gujarat State Petronet",
       "sector": "Oil Gas & Consumable Fuels",
       "truevx": 9,
       "mean_short": 26,
@@ -1950,7 +2040,7 @@
     },
     {
       "symbol": "KPITTECH",
-      "name": "KPITTECH",
+      "name": "KPIT Technologies",
       "sector": "Information Technology",
       "truevx": 9,
       "mean_short": 6,
@@ -1964,7 +2054,7 @@
     },
     {
       "symbol": "COLPAL",
-      "name": "COLPAL",
+      "name": "Colgate Palmolive (India)",
       "sector": "Fast Moving Consumer Goods",
       "truevx": 10,
       "mean_short": 24,
@@ -1978,7 +2068,7 @@
     },
     {
       "symbol": "EMAMILTD",
-      "name": "EMAMILTD",
+      "name": "Emami",
       "sector": "Fast Moving Consumer Goods",
       "truevx": 12,
       "mean_short": 9,
@@ -1992,7 +2082,7 @@
     },
     {
       "symbol": "BBTC",
-      "name": "BBTC",
+      "name": "Bombay Burmah Trading Corporation",
       "sector": "Fast Moving Consumer Goods",
       "truevx": 15,
       "mean_short": 8,
@@ -2006,7 +2096,7 @@
     },
     {
       "symbol": "ARE&M",
-      "name": "ARE&M",
+      "name": "Amara Raja Energy & Mobility",
       "sector": "Automobile and Auto Components",
       "truevx": 16,
       "mean_short": 11,
@@ -2020,7 +2110,7 @@
     },
     {
       "symbol": "JUBLFOOD",
-      "name": "JUBLFOOD",
+      "name": "Jubilant Foodworks",
       "sector": "Consumer Services",
       "truevx": 16,
       "mean_short": 11,
@@ -2034,7 +2124,7 @@
     },
     {
       "symbol": "NEWGEN",
-      "name": "NEWGEN",
+      "name": "Newgen Software Technologies",
       "sector": "Information Technology",
       "truevx": 16,
       "mean_short": 5,
@@ -2062,7 +2152,7 @@
     },
     {
       "symbol": "SYNGENE",
-      "name": "SYNGENE",
+      "name": "Syngene International",
       "sector": "Healthcare",
       "truevx": 17,
       "mean_short": 17,
@@ -2076,7 +2166,7 @@
     },
     {
       "symbol": "SAPPHIRE",
-      "name": "SAPPHIRE",
+      "name": "Sapphire Foods India",
       "sector": "Consumer Services",
       "truevx": 17,
       "mean_short": 11,
@@ -2090,7 +2180,7 @@
     },
     {
       "symbol": "TCS",
-      "name": "TCS",
+      "name": "Tata Consultancy Services",
       "sector": "Information Technology",
       "truevx": 18,
       "mean_short": 13,
@@ -2118,7 +2208,7 @@
     },
     {
       "symbol": "PPLPHARMA",
-      "name": "PPLPHARMA",
+      "name": "Piramal Pharma",
       "sector": "Healthcare",
       "truevx": 19,
       "mean_short": 20,
