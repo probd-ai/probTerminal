@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import StockSearch from "@/components/StockSearch";
+import SignalBar from "@/components/SignalBar";
 import { getSnapshot, getStockStateLabel, getFlowBadgeClass, getFlowLabel } from "@/lib/data";
 import type { Metadata } from "next";
 import { Star, Eye, TrendingDown, Search } from "lucide-react";
@@ -114,7 +115,7 @@ export default async function StocksPage() {
                   <th>Symbol</th>
                   <th>Company</th>
                   <th>Sector</th>
-                  <th>TrueVX</th>
+                  <th>Signal</th>
                   <th>Short/Mid/Long</th>
                   <th>State</th>
                   <th>Zone</th>
@@ -136,7 +137,7 @@ export default async function StocksPage() {
                       <span style={{ fontSize: 12, color: "var(--text-3)" }}>{s.sector}</span>
                     </td>
                     <td>
-                      <span className="stat-number" style={{ fontWeight: 700, color: "#fbbf24", fontSize: 14 }}>{s.truevx}</span>
+                      <SignalBar value={s.truevx} />
                     </td>
                     <td>
                       <span className="stat-number" style={{ fontSize: 12, color: "var(--text-2)" }}>
@@ -190,13 +191,10 @@ export default async function StocksPage() {
             {snap.in_the_flow.map((s) => (
               <div key={s.symbol} className="card" style={{ padding: "16px 18px" }}>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: 8 }}>
-                  <div>
+                  <div style={{ flex: 1, minWidth: 0 }}>
                     <div className="stat-number" style={{ fontWeight: 700, fontSize: 14, color: "#e8e8f2" }}>{s.symbol}</div>
                     <div style={{ fontSize: 12, color: "var(--text-3)", marginTop: 2 }}>{s.sector}</div>
-                  </div>
-                  <div style={{ textAlign: "right" }}>
-                    <div className="stat-number" style={{ fontSize: 20, fontWeight: 700, color: "#fbbf24" }}>{s.truevx}</div>
-                    <div style={{ fontSize: 10, color: "var(--text-3)", fontFamily: "'JetBrains Mono', monospace" }}>TVX</div>
+                    <div style={{ marginTop: 6 }}><SignalBar value={s.truevx} size="sm" /></div>
                   </div>
                 </div>
                 <div style={{ display: "flex", gap: 8, marginBottom: 10 }}>
@@ -239,12 +237,10 @@ export default async function StocksPage() {
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(220px,1fr))", gap: 10 }}>
             {snap.watchlist.map((s) => (
               <div key={s.symbol} className="card" style={{ padding: "14px 16px", border: "1px solid rgba(251,191,36,0.15)" }}>
-                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                  <div>
-                    <div className="stat-number" style={{ fontWeight: 700, fontSize: 13, color: "#fbbf24" }}>{s.symbol}</div>
-                    <div style={{ fontSize: 11, color: "var(--text-3)", marginTop: 1 }}>{s.sector}</div>
-                  </div>
-                  <div className="stat-number" style={{ fontSize: 18, fontWeight: 700, color: "#e8e8f2" }}>{s.truevx}</div>
+                <div style={{ marginBottom: 8 }}>
+                  <div className="stat-number" style={{ fontWeight: 700, fontSize: 13, color: "#fbbf24" }}>{s.symbol}</div>
+                  <div style={{ fontSize: 11, color: "var(--text-3)", marginTop: 1, marginBottom: 4 }}>{s.sector}</div>
+                  <SignalBar value={s.truevx} size="sm" />
                 </div>
                 <div style={{ marginTop: 8, fontSize: 11, color: "var(--text-3)", fontFamily: "'JetBrains Mono', monospace" }}>
                   {s.mean_short} / {s.mean_mid} / {s.mean_long} · {s.level_zone}

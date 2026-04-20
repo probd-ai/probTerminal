@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SectorBubbleChart from "@/components/charts/SectorBubble";
+import SignalBar from "@/components/SignalBar";
 import { getSnapshot, getSectorStateColor } from "@/lib/data";
 import type { Metadata } from "next";
 import { Zap, TrendingUp, Info } from "lucide-react";
@@ -71,7 +72,7 @@ export default async function SectorsPage() {
           <div style={{ marginBottom: 16 }}>
             <h2 style={{ fontSize: 18, fontWeight: 600, letterSpacing: "-0.02em", marginBottom: 4 }}>Sector Rotation Map</h2>
             <p style={{ color: "var(--text-3)", fontSize: 13 }}>
-              X = current strength (median TrueVX) · Y = 7-day momentum · Bubble size = number of stocks in sector
+              X = current signal strength · Y = 7-day momentum · Bubble size = number of stocks in sector
             </p>
           </div>
           <div style={{ display: "flex", gap: 16, marginBottom: 16, flexWrap: "wrap" }}>
@@ -146,14 +147,7 @@ export default async function SectorsPage() {
                       </div>
                     </td>
                     <td>
-                      <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-                        <span className="stat-number" style={{ fontWeight: 700, color: getSectorStateColor(s.state), fontSize: 15 }}>
-                          {s.median_truevx.toFixed(1)}
-                        </span>
-                        <div style={{ width: 60, height: 3, borderRadius: 2, background: "var(--border)", overflow: "hidden" }}>
-                          <div style={{ height: "100%", width: `${s.median_truevx}%`, background: getSectorStateColor(s.state), borderRadius: 2 }} />
-                        </div>
-                      </div>
+                      <SignalBar value={s.median_truevx} size="sm" />
                     </td>
                     <td>
                       <span className="stat-number" style={{ color: "var(--text-1)" }}>

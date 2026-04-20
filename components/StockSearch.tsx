@@ -4,6 +4,7 @@ import { useState, useMemo } from "react";
 import { Search, X } from "lucide-react";
 import type { Stock } from "@/lib/types";
 import { getFlowBadgeClass, getFlowLabel } from "@/lib/data";
+import SignalBar from "@/components/SignalBar";
 
 interface Props {
   allStocks: Stock[];
@@ -245,7 +246,7 @@ export default function StockSearch({ allStocks, sectors }: Props) {
               <th>Symbol</th>
               <th>Company</th>
               <th>Sector</th>
-              <th>TVX</th>
+              <th>Signal</th>
               <th>S / M / L</th>
               <th>State</th>
               <th>Zone</th>
@@ -272,12 +273,7 @@ export default function StockSearch({ allStocks, sectors }: Props) {
                   <span style={{ fontSize: 11, color: "var(--text-3)" }}>{s.sector}</span>
                 </td>
                 <td>
-                  <span
-                    className="stat-number"
-                    style={{ fontWeight: 700, color: "#fbbf24", fontSize: 14 }}
-                  >
-                    {s.truevx}
-                  </span>
+                  <SignalBar value={s.truevx} size="sm" />
                 </td>
                 <td>
                   <span

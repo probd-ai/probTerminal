@@ -106,7 +106,7 @@ export default async function Home() {
               </span>
               <span style={{ fontSize: 20, color: "var(--text-2)", fontWeight: 600 }}>%</span>
             </div>
-            <div style={{ fontSize: 12, color: "var(--text-3)", marginTop: 4 }}>Stocks with TrueVX mean_long &gt;80</div>
+            <div style={{ fontSize: 12, color: "var(--text-3)", marginTop: 4 }}>Stocks with structural long-term strength</div>
           </div>
 
           {/* F7 Count */}
@@ -203,11 +203,11 @@ export default async function Home() {
                   <span style={{ fontSize: 13, fontWeight: 500 }}>{s.short_name}</span>
                   {s.ignition_alert && <span style={{ fontSize: 10 }}>🔥</span>}
                 </div>
-                <div className="stat-number" style={{ fontSize: 22, fontWeight: 700, color: getSectorStateColor(s.state), marginBottom: 6 }}>
-                  {s.median_truevx.toFixed(0)}
+                <div className="stat-number" style={{ fontSize: 14, fontWeight: 700, color: getSectorStateColor(s.state), marginBottom: 6 }}>
+                  {s.state}
                 </div>
                 <div style={{ height: 3, borderRadius: 2, background: "var(--border)", overflow: "hidden", marginBottom: 6 }}>
-                  <div style={{ height: "100%", width: `${s.median_truevx}%`, background: getSectorStateColor(s.state), borderRadius: 2, opacity: 0.8 }} />
+                  <div style={{ height: "100%", width: `${s.breadth_pct * 100}%`, background: getSectorStateColor(s.state), borderRadius: 2, opacity: 0.8 }} />
                 </div>
                 <div style={{ display: "flex", justifyContent: "space-between", fontSize: 11, color: "var(--text-3)", fontFamily: "'JetBrains Mono', monospace" }}>
                   <span>{(s.breadth_pct * 100).toFixed(0)}% breadth</span>

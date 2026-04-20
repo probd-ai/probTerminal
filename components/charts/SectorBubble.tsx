@@ -40,8 +40,8 @@ function CustomTooltip({ active, payload }: any) {
       </div>
       <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>
         <div style={{ display: "flex", justifyContent: "space-between", gap: 16 }}>
-          <span style={{ color: "var(--text-2)" }}>TrueVX Score</span>
-          <span style={{ color: STATE_COLORS[d.state] }}>{d.median_truevx.toFixed(1)}</span>
+          <span style={{ color: "var(--text-2)" }}>Signal Strength</span>
+          <span style={{ color: STATE_COLORS[d.state] }}>{d.state}</span>
         </div>
         <div style={{ display: "flex", justifyContent: "space-between", gap: 16 }}>
           <span style={{ color: "var(--text-2)" }}>Breadth</span>
@@ -91,13 +91,13 @@ export default function SectorBubbleChart({ sectors }: Props) {
           <XAxis
             type="number"
             dataKey="x"
-            name="Median TrueVX"
+            name="Signal Strength"
             domain={[15, 85]}
-            tick={{ fill: "#50506a", fontSize: 11, fontFamily: "'JetBrains Mono', monospace" }}
+            tick={false}
             tickLine={false}
             axisLine={false}
             label={{
-              value: "Sector Strength (Median TrueVX →)",
+              value: "← Weaker · Sector Signal Strength · Stronger →",
               position: "insideBottom",
               offset: -8,
               fill: "#50506a",
