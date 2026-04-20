@@ -1,0 +1,85 @@
+name: Weekly Snapshot Refresh
+
+on:
+  # Every Sunday at 11:30 PM IST (18:00 UTC)
+  schedule:
+    - cron: '0 18 * * 0'
+  # Manual trigger (for testing or ad-hoc refresh)
+  workflow_dispatch:
+    inputs:
+      as_of_date:
+        description: 'As-of date (YYYY-MM-DD). Leave blank for today.'
+        required: false
+        default: ''
+
+jobs:
+  refresh-snapshot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: |
+          pip install pymongo pandas numpy
+
+      - name: Set up SSH tunnel to MongoDB
+        # If MongoDB is on a private server, use an SSH tunnel.
+        # Set SSH_PRIVATE_KEY and MONGO_HOST as GitHub secrets.
+        # Skip this step if MongoDB is directly accessible.
+        run: |
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > /tmp/ssh_key
+          chmod 600 /tmp/ssh_key
+          ssh -fN -L 27017:localhost:27017 \
+              -o StrictHostKeyChecking=no \
+              -i /tmp/ssh_key \
+              ${{ secrets.MONGO_SSH_USER }}@${{ secrets.MONGO_HOST }} || true
+        continue-on-error: true  # skip silently if no SSH secret configured
+
+      - name: Generate snapshot.json
+        run: |
+          DATE_ARG=""
+          if [ -n "${{ github.event.inputs.as_of_date }}" ]; then
+            DATE_ARG="--date ${{ github.event.inputs.as_of_date }}"
+          fi
+          python generate_snapshot.py \
+            --output prob-terminal/public/data/snapshot.json \
+            $DATE_ARG
+
+      - name: Validate snapshot (sanity check)
+        run: |
+          python - << 'EOF'
+          import json, sys
+          with open("prob-terminal/public/data/snapshot.json") as f:
+              snap = json.load(f)
+          assert len(snap["sectors"]) >= 10, "Too few sectors"
+          assert len(snap["f7_stocks"]) >= 0, "F7 list missing"
+          assert "breadth_history" in snap["market_pulse"], "No breadth history"
+          assert len(snap["market_pulse"]["breadth_history"]) >= 30, "Too few breadth history points"
+          print(f"✅ Snapshot valid: {len(snap['sectors'])} sectors, {len(snap['f7_stocks'])} F7 stocks, regime={snap['market_pulse']['regime']}")
+          EOF
+
+      - name: Commit updated snapshot
+        run: |
+          git config user.name  "Prob Terminal Bot"
+          git config user.email "bot@probterminal.in"
+          git add prob-terminal/public/data/snapshot.json
+          git diff --staged --quiet || git commit -m "chore: weekly snapshot refresh $(date +%Y-%m-%d)"
+          git push
+
+      - name: Trigger Vercel deploy
+        # Vercel auto-deploys on push to main.
+        # This step is a fallback hook if you want an explicit trigger.
+        run: |
+          if [ -n "${{ secrets.VERCEL_DEPLOY_HOOK }}" ]; then
+            curl -X POST "${{ secrets.VERCEL_DEPLOY_HOOK }}"
+            echo "✅ Vercel deploy hook triggered"
+          else
+            echo "ℹ️  No VERCEL_DEPLOY_HOOK secret — relying on git push auto-deploy"
+          fi
