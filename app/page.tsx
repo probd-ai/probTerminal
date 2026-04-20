@@ -1,6 +1,9 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import BreadthChart from "@/components/charts/BreadthChart";
+import NewsletterSignup from "@/components/NewsletterSignup";
+import ShareBar from "@/components/ShareBar";
+import TelegramBanner from "@/components/TelegramBanner";
 import { getSnapshot, getRegimeBadge, getSectorStateColor } from "@/lib/data";
 import type { Metadata } from "next";
 import { ArrowUpRight, ArrowDownRight, TrendingUp, AlertTriangle, Zap } from "lucide-react";
@@ -250,7 +253,23 @@ export default async function Home() {
               </div>
             ))}
           </div>
+          <ShareBar
+            regime={mp.regime}
+            R={mp.R_ratio}
+            prob22d={mp.win_prob_22d}
+            week={snap.meta.week_of}
+          />
         </section>
+
+        {/* ── Telegram CTA ─────────────────────────────────────── */}
+        <div style={{ marginBottom: 32 }}>
+          <TelegramBanner />
+        </div>
+
+        {/* ── Newsletter Signup ─────────────────────────────────── */}
+        <div style={{ marginBottom: 56 }}>
+          <NewsletterSignup />
+        </div>
 
       </main>
       <Footer />

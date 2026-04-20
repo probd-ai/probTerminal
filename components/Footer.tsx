@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NewsletterSignup from "@/components/NewsletterSignup";
 
 export default function Footer() {
   return (
@@ -10,6 +11,19 @@ export default function Footer() {
       }}
     >
       <div style={{ maxWidth: 1280, margin: "0 auto" }}>
+
+        {/* Newsletter strip */}
+        <div style={{ marginBottom: 48, padding: "24px 32px", background: "rgba(20,217,196,0.04)", border: "1px solid rgba(20,217,196,0.1)", borderRadius: 12 }}>
+          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 20, flexWrap: "wrap" }}>
+            <div>
+              <div style={{ fontSize: 14, fontWeight: 600, marginBottom: 4 }}>📬 Weekly Regime Alert — Free</div>
+              <div style={{ fontSize: 12, color: "var(--text-3)" }}>Breadth ratio R, cascade alerts, F7 count. No spam.</div>
+            </div>
+            <div style={{ flex: 1, minWidth: 280 }}>
+              <NewsletterSignup compact />
+            </div>
+          </div>
+        </div>
         <div
           style={{
             display: "grid",
