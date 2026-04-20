@@ -1,0 +1,1435 @@
+{
+  "meta": {
+    "last_updated": "2026-04-20",
+    "week_of": "Week 16, 2026",
+    "universe": "NIFTY 500",
+    "total_stocks": 475,
+    "data_version": "1.0"
+  },
+  "market_pulse": {
+    "regime": "BULL",
+    "regime_confidence": 0.78,
+    "R_ratio": 1.85,
+    "R_state": "HIGH",
+    "R_quintile": "Q4",
+    "R_slope_21d": "RISING",
+    "R_slope_value": 0.094,
+    "bull_pct": 48.2,
+    "bear_pct": 26.1,
+    "neutral_pct": 25.7,
+    "net_breadth": 0.221,
+    "beta_order": 0.72,
+    "win_prob_22d": 68,
+    "f7_count": 24,
+    "breadth_history": [
+      {
+        "date": "2026-01-20",
+        "bull_pct": 39.7,
+        "bear_pct": 40.1,
+        "neutral_pct": 20.2,
+        "net_breadth": -0.004,
+        "R_ratio": 0.991
+      },
+      {
+        "date": "2026-01-21",
+        "bull_pct": 41.1,
+        "bear_pct": 38.3,
+        "neutral_pct": 20.6,
+        "net_breadth": 0.028,
+        "R_ratio": 1.051
+      },
+      {
+        "date": "2026-01-22",
+        "bull_pct": 40.7,
+        "bear_pct": 39.3,
+        "neutral_pct": 20.0,
+        "net_breadth": 0.014,
+        "R_ratio": 1.038
+      },
+      {
+        "date": "2026-01-23",
+        "bull_pct": 41.0,
+        "bear_pct": 40.2,
+        "neutral_pct": 18.8,
+        "net_breadth": 0.008,
+        "R_ratio": 1.034
+      },
+      {
+        "date": "2026-01-24",
+        "bull_pct": 41.9,
+        "bear_pct": 38.4,
+        "neutral_pct": 19.7,
+        "net_breadth": 0.035,
+        "R_ratio": 1.076
+      },
+      {
+        "date": "2026-01-25",
+        "bull_pct": 39.8,
+        "bear_pct": 41.0,
+        "neutral_pct": 19.2,
+        "net_breadth": -0.012,
+        "R_ratio": 0.985
+      },
+      {
+        "date": "2026-01-26",
+        "bull_pct": 41.3,
+        "bear_pct": 39.4,
+        "neutral_pct": 19.3,
+        "net_breadth": 0.019,
+        "R_ratio": 1.057
+      },
+      {
+        "date": "2026-01-27",
+        "bull_pct": 39.2,
+        "bear_pct": 40.7,
+        "neutral_pct": 20.1,
+        "net_breadth": -0.015,
+        "R_ratio": 0.976
+      },
+      {
+        "date": "2026-01-28",
+        "bull_pct": 42.7,
+        "bear_pct": 38.3,
+        "neutral_pct": 19.0,
+        "net_breadth": 0.044,
+        "R_ratio": 1.125
+      },
+      {
+        "date": "2026-01-29",
+        "bull_pct": 42.9,
+        "bear_pct": 37.8,
+        "neutral_pct": 19.3,
+        "net_breadth": 0.051,
+        "R_ratio": 1.097
+      },
+      {
+        "date": "2026-01-30",
+        "bull_pct": 41.6,
+        "bear_pct": 36.5,
+        "neutral_pct": 21.9,
+        "net_breadth": 0.051,
+        "R_ratio": 1.125
+      },
+      {
+        "date": "2026-01-31",
+        "bull_pct": 40.8,
+        "bear_pct": 39.5,
+        "neutral_pct": 19.7,
+        "net_breadth": 0.013,
+        "R_ratio": 1.064
+      },
+      {
+        "date": "2026-02-01",
+        "bull_pct": 42.4,
+        "bear_pct": 38.3,
+        "neutral_pct": 19.3,
+        "net_breadth": 0.041,
+        "R_ratio": 1.149
+      },
+      {
+        "date": "2026-02-02",
+        "bull_pct": 41.3,
+        "bear_pct": 38.9,
+        "neutral_pct": 19.8,
+        "net_breadth": 0.024,
+        "R_ratio": 1.058
+      },
+      {
+        "date": "2026-02-03",
+        "bull_pct": 43.7,
+        "bear_pct": 38.3,
+        "neutral_pct": 18.0,
+        "net_breadth": 0.054,
+        "R_ratio": 1.134
+      },
+      {
+        "date": "2026-02-04",
+        "bull_pct": 44.1,
+        "bear_pct": 37.9,
+        "neutral_pct": 18.0,
+        "net_breadth": 0.062,
+        "R_ratio": 1.157
+      },
+      {
+        "date": "2026-02-05",
+        "bull_pct": 41.9,
+        "bear_pct": 38.1,
+        "neutral_pct": 20.0,
+        "net_breadth": 0.038,
+        "R_ratio": 1.108
+      },
+      {
+        "date": "2026-02-06",
+        "bull_pct": 43.9,
+        "bear_pct": 38.7,
+        "neutral_pct": 17.4,
+        "net_breadth": 0.052,
+        "R_ratio": 1.185
+      },
+      {
+        "date": "2026-02-07",
+        "bull_pct": 41.7,
+        "bear_pct": 38.7,
+        "neutral_pct": 19.6,
+        "net_breadth": 0.03,
+        "R_ratio": 1.114
+      },
+      {
+        "date": "2026-02-08",
+        "bull_pct": 46.0,
+        "bear_pct": 36.8,
+        "neutral_pct": 17.2,
+        "net_breadth": 0.092,
+        "R_ratio": 1.258
+      },
+      {
+        "date": "2026-02-09",
+        "bull_pct": 45.7,
+        "bear_pct": 35.3,
+        "neutral_pct": 19.0,
+        "net_breadth": 0.104,
+        "R_ratio": 1.267
+      },
+      {
+        "date": "2026-02-10",
+        "bull_pct": 44.3,
+        "bear_pct": 36.7,
+        "neutral_pct": 19.0,
+        "net_breadth": 0.076,
+        "R_ratio": 1.159
+      },
+      {
+        "date": "2026-02-11",
+        "bull_pct": 44.7,
+        "bear_pct": 36.8,
+        "neutral_pct": 18.5,
+        "net_breadth": 0.079,
+        "R_ratio": 1.202
+      },
+      {
+        "date": "2026-02-12",
+        "bull_pct": 46.1,
+        "bear_pct": 37.6,
+        "neutral_pct": 16.3,
+        "net_breadth": 0.085,
+        "R_ratio": 1.26
+      },
+      {
+        "date": "2026-02-13",
+        "bull_pct": 45.4,
+        "bear_pct": 35.8,
+        "neutral_pct": 18.8,
+        "net_breadth": 0.096,
+        "R_ratio": 1.271
+      },
+      {
+        "date": "2026-02-14",
+        "bull_pct": 45.2,
+        "bear_pct": 36.7,
+        "neutral_pct": 18.1,
+        "net_breadth": 0.085,
+        "R_ratio": 1.2
+      },
+      {
+        "date": "2026-02-15",
+        "bull_pct": 46.3,
+        "bear_pct": 35.8,
+        "neutral_pct": 17.9,
+        "net_breadth": 0.105,
+        "R_ratio": 1.262
+      },
+      {
+        "date": "2026-02-16",
+        "bull_pct": 44.3,
+        "bear_pct": 35.5,
+        "neutral_pct": 20.2,
+        "net_breadth": 0.088,
+        "R_ratio": 1.266
+      },
+      {
+        "date": "2026-02-17",
+        "bull_pct": 46.1,
+        "bear_pct": 36.9,
+        "neutral_pct": 17.0,
+        "net_breadth": 0.092,
+        "R_ratio": 1.266
+      },
+      {
+        "date": "2026-02-18",
+        "bull_pct": 46.9,
+        "bear_pct": 35.6,
+        "neutral_pct": 17.5,
+        "net_breadth": 0.113,
+        "R_ratio": 1.316
+      },
+      {
+        "date": "2026-02-19",
+        "bull_pct": 49.0,
+        "bear_pct": 34.7,
+        "neutral_pct": 16.3,
+        "net_breadth": 0.143,
+        "R_ratio": 1.398
+      },
+      {
+        "date": "2026-02-20",
+        "bull_pct": 46.9,
+        "bear_pct": 36.1,
+        "neutral_pct": 17.0,
+        "net_breadth": 0.108,
+        "R_ratio": 1.289
+      },
+      {
+        "date": "2026-02-21",
+        "bull_pct": 49.0,
+        "bear_pct": 35.2,
+        "neutral_pct": 15.8,
+        "net_breadth": 0.138,
+        "R_ratio": 1.44
+      },
+      {
+        "date": "2026-02-22",
+        "bull_pct": 48.9,
+        "bear_pct": 35.0,
+        "neutral_pct": 16.1,
+        "net_breadth": 0.139,
+        "R_ratio": 1.362
+      },
+      {
+        "date": "2026-02-23",
+        "bull_pct": 46.8,
+        "bear_pct": 34.8,
+        "neutral_pct": 18.4,
+        "net_breadth": 0.12,
+        "R_ratio": 1.369
+      },
+      {
+        "date": "2026-02-24",
+        "bull_pct": 50.7,
+        "bear_pct": 33.7,
+        "neutral_pct": 15.6,
+        "net_breadth": 0.17,
+        "R_ratio": 1.502
+      },
+      {
+        "date": "2026-02-25",
+        "bull_pct": 46.8,
+        "bear_pct": 36.2,
+        "neutral_pct": 17.0,
+        "net_breadth": 0.106,
+        "R_ratio": 1.291
+      },
+      {
+        "date": "2026-02-26",
+        "bull_pct": 48.1,
+        "bear_pct": 34.3,
+        "neutral_pct": 17.6,
+        "net_breadth": 0.138,
+        "R_ratio": 1.417
+      },
+      {
+        "date": "2026-02-27",
+        "bull_pct": 50.3,
+        "bear_pct": 32.3,
+        "neutral_pct": 17.4,
+        "net_breadth": 0.18,
+        "R_ratio": 1.57
+      },
+      {
+        "date": "2026-02-28",
+        "bull_pct": 50.7,
+        "bear_pct": 32.4,
+        "neutral_pct": 16.9,
+        "net_breadth": 0.183,
+        "R_ratio": 1.565
+      },
+      {
+        "date": "2026-03-01",
+        "bull_pct": 49.1,
+        "bear_pct": 33.4,
+        "neutral_pct": 17.5,
+        "net_breadth": 0.157,
+        "R_ratio": 1.506
+      },
+      {
+        "date": "2026-03-02",
+        "bull_pct": 49.6,
+        "bear_pct": 34.0,
+        "neutral_pct": 16.4,
+        "net_breadth": 0.156,
+        "R_ratio": 1.438
+      },
+      {
+        "date": "2026-03-03",
+        "bull_pct": 52.7,
+        "bear_pct": 32.5,
+        "neutral_pct": 14.8,
+        "net_breadth": 0.202,
+        "R_ratio": 1.657
+      },
+      {
+        "date": "2026-03-04",
+        "bull_pct": 49.1,
+        "bear_pct": 34.1,
+        "neutral_pct": 16.8,
+        "net_breadth": 0.15,
+        "R_ratio": 1.451
+      },
+      {
+        "date": "2026-03-05",
+        "bull_pct": 50.9,
+        "bear_pct": 32.4,
+        "neutral_pct": 16.7,
+        "net_breadth": 0.185,
+        "R_ratio": 1.642
+      },
+      {
+        "date": "2026-03-06",
+        "bull_pct": 52.5,
+        "bear_pct": 32.9,
+        "neutral_pct": 14.6,
+        "net_breadth": 0.196,
+        "R_ratio": 1.579
+      },
+      {
+        "date": "2026-03-07",
+        "bull_pct": 50.4,
+        "bear_pct": 32.0,
+        "neutral_pct": 17.6,
+        "net_breadth": 0.184,
+        "R_ratio": 1.551
+      },
+      {
+        "date": "2026-03-08",
+        "bull_pct": 50.9,
+        "bear_pct": 33.9,
+        "neutral_pct": 15.2,
+        "net_breadth": 0.17,
+        "R_ratio": 1.561
+      },
+      {
+        "date": "2026-03-09",
+        "bull_pct": 50.5,
+        "bear_pct": 32.2,
+        "neutral_pct": 17.3,
+        "net_breadth": 0.183,
+        "R_ratio": 1.513
+      },
+      {
+        "date": "2026-03-10",
+        "bull_pct": 50.6,
+        "bear_pct": 33.6,
+        "neutral_pct": 15.8,
+        "net_breadth": 0.17,
+        "R_ratio": 1.524
+      },
+      {
+        "date": "2026-03-11",
+        "bull_pct": 52.0,
+        "bear_pct": 31.3,
+        "neutral_pct": 16.7,
+        "net_breadth": 0.207,
+        "R_ratio": 1.63
+      },
+      {
+        "date": "2026-03-12",
+        "bull_pct": 51.5,
+        "bear_pct": 32.9,
+        "neutral_pct": 15.6,
+        "net_breadth": 0.186,
+        "R_ratio": 1.565
+      },
+      {
+        "date": "2026-03-13",
+        "bull_pct": 50.7,
+        "bear_pct": 33.5,
+        "neutral_pct": 15.8,
+        "net_breadth": 0.172,
+        "R_ratio": 1.487
+      },
+      {
+        "date": "2026-03-14",
+        "bull_pct": 52.0,
+        "bear_pct": 33.0,
+        "neutral_pct": 15.0,
+        "net_breadth": 0.19,
+        "R_ratio": 1.562
+      },
+      {
+        "date": "2026-03-15",
+        "bull_pct": 52.2,
+        "bear_pct": 33.2,
+        "neutral_pct": 14.6,
+        "net_breadth": 0.19,
+        "R_ratio": 1.528
+      },
+      {
+        "date": "2026-03-16",
+        "bull_pct": 49.8,
+        "bear_pct": 34.4,
+        "neutral_pct": 15.8,
+        "net_breadth": 0.154,
+        "R_ratio": 1.482
+      },
+      {
+        "date": "2026-03-17",
+        "bull_pct": 50.7,
+        "bear_pct": 33.9,
+        "neutral_pct": 15.4,
+        "net_breadth": 0.168,
+        "R_ratio": 1.517
+      },
+      {
+        "date": "2026-03-18",
+        "bull_pct": 48.4,
+        "bear_pct": 33.6,
+        "neutral_pct": 18.0,
+        "net_breadth": 0.148,
+        "R_ratio": 1.489
+      },
+      {
+        "date": "2026-03-19",
+        "bull_pct": 50.2,
+        "bear_pct": 33.4,
+        "neutral_pct": 16.4,
+        "net_breadth": 0.168,
+        "R_ratio": 1.544
+      },
+      {
+        "date": "2026-03-20",
+        "bull_pct": 50.4,
+        "bear_pct": 32.8,
+        "neutral_pct": 16.8,
+        "net_breadth": 0.176,
+        "R_ratio": 1.576
+      },
+      {
+        "date": "2026-03-21",
+        "bull_pct": 49.4,
+        "bear_pct": 33.2,
+        "neutral_pct": 17.4,
+        "net_breadth": 0.162,
+        "R_ratio": 1.538
+      },
+      {
+        "date": "2026-03-22",
+        "bull_pct": 50.3,
+        "bear_pct": 33.0,
+        "neutral_pct": 16.7,
+        "net_breadth": 0.173,
+        "R_ratio": 1.557
+      },
+      {
+        "date": "2026-03-23",
+        "bull_pct": 51.1,
+        "bear_pct": 32.5,
+        "neutral_pct": 16.4,
+        "net_breadth": 0.186,
+        "R_ratio": 1.599
+      },
+      {
+        "date": "2026-03-24",
+        "bull_pct": 51.7,
+        "bear_pct": 32.1,
+        "neutral_pct": 16.2,
+        "net_breadth": 0.196,
+        "R_ratio": 1.641
+      },
+      {
+        "date": "2026-03-25",
+        "bull_pct": 53.3,
+        "bear_pct": 31.2,
+        "neutral_pct": 15.5,
+        "net_breadth": 0.221,
+        "R_ratio": 1.59
+      },
+      {
+        "date": "2026-03-26",
+        "bull_pct": 52.0,
+        "bear_pct": 31.8,
+        "neutral_pct": 16.2,
+        "net_breadth": 0.202,
+        "R_ratio": 1.642
+      },
+      {
+        "date": "2026-03-27",
+        "bull_pct": 53.5,
+        "bear_pct": 32.4,
+        "neutral_pct": 14.1,
+        "net_breadth": 0.211,
+        "R_ratio": 1.724
+      },
+      {
+        "date": "2026-03-28",
+        "bull_pct": 51.8,
+        "bear_pct": 32.0,
+        "neutral_pct": 16.2,
+        "net_breadth": 0.198,
+        "R_ratio": 1.593
+      },
+      {
+        "date": "2026-03-29",
+        "bull_pct": 51.5,
+        "bear_pct": 32.2,
+        "neutral_pct": 16.3,
+        "net_breadth": 0.193,
+        "R_ratio": 1.589
+      },
+      {
+        "date": "2026-03-30",
+        "bull_pct": 50.7,
+        "bear_pct": 32.9,
+        "neutral_pct": 16.4,
+        "net_breadth": 0.178,
+        "R_ratio": 1.652
+      },
+      {
+        "date": "2026-03-31",
+        "bull_pct": 53.6,
+        "bear_pct": 31.2,
+        "neutral_pct": 15.2,
+        "net_breadth": 0.224,
+        "R_ratio": 1.64
+      },
+      {
+        "date": "2026-04-01",
+        "bull_pct": 55.3,
+        "bear_pct": 30.9,
+        "neutral_pct": 13.8,
+        "net_breadth": 0.244,
+        "R_ratio": 1.678
+      },
+      {
+        "date": "2026-04-02",
+        "bull_pct": 50.9,
+        "bear_pct": 32.7,
+        "neutral_pct": 16.4,
+        "net_breadth": 0.182,
+        "R_ratio": 1.58
+      },
+      {
+        "date": "2026-04-03",
+        "bull_pct": 54.5,
+        "bear_pct": 30.9,
+        "neutral_pct": 14.6,
+        "net_breadth": 0.236,
+        "R_ratio": 1.722
+      },
+      {
+        "date": "2026-04-04",
+        "bull_pct": 51.2,
+        "bear_pct": 33.1,
+        "neutral_pct": 15.7,
+        "net_breadth": 0.181,
+        "R_ratio": 1.594
+      },
+      {
+        "date": "2026-04-05",
+        "bull_pct": 52.0,
+        "bear_pct": 31.0,
+        "neutral_pct": 17.0,
+        "net_breadth": 0.21,
+        "R_ratio": 1.728
+      },
+      {
+        "date": "2026-04-06",
+        "bull_pct": 56.2,
+        "bear_pct": 30.7,
+        "neutral_pct": 13.1,
+        "net_breadth": 0.255,
+        "R_ratio": 1.794
+      },
+      {
+        "date": "2026-04-07",
+        "bull_pct": 52.7,
+        "bear_pct": 30.4,
+        "neutral_pct": 16.9,
+        "net_breadth": 0.223,
+        "R_ratio": 1.739
+      },
+      {
+        "date": "2026-04-08",
+        "bull_pct": 54.0,
+        "bear_pct": 31.3,
+        "neutral_pct": 14.7,
+        "net_breadth": 0.227,
+        "R_ratio": 1.733
+      },
+      {
+        "date": "2026-04-09",
+        "bull_pct": 52.4,
+        "bear_pct": 30.7,
+        "neutral_pct": 16.9,
+        "net_breadth": 0.217,
+        "R_ratio": 1.711
+      },
+      {
+        "date": "2026-04-10",
+        "bull_pct": 53.4,
+        "bear_pct": 30.1,
+        "neutral_pct": 16.5,
+        "net_breadth": 0.233,
+        "R_ratio": 1.681
+      },
+      {
+        "date": "2026-04-11",
+        "bull_pct": 54.1,
+        "bear_pct": 31.8,
+        "neutral_pct": 14.1,
+        "net_breadth": 0.223,
+        "R_ratio": 1.74
+      },
+      {
+        "date": "2026-04-12",
+        "bull_pct": 55.0,
+        "bear_pct": 30.3,
+        "neutral_pct": 14.7,
+        "net_breadth": 0.247,
+        "R_ratio": 1.774
+      },
+      {
+        "date": "2026-04-13",
+        "bull_pct": 53.1,
+        "bear_pct": 31.8,
+        "neutral_pct": 15.1,
+        "net_breadth": 0.213,
+        "R_ratio": 1.735
+      },
+      {
+        "date": "2026-04-14",
+        "bull_pct": 55.6,
+        "bear_pct": 31.9,
+        "neutral_pct": 12.5,
+        "net_breadth": 0.237,
+        "R_ratio": 1.85
+      },
+      {
+        "date": "2026-04-15",
+        "bull_pct": 55.0,
+        "bear_pct": 30.5,
+        "neutral_pct": 14.5,
+        "net_breadth": 0.245,
+        "R_ratio": 1.798
+      },
+      {
+        "date": "2026-04-16",
+        "bull_pct": 56.4,
+        "bear_pct": 31.2,
+        "neutral_pct": 12.4,
+        "net_breadth": 0.252,
+        "R_ratio": 1.797
+      },
+      {
+        "date": "2026-04-17",
+        "bull_pct": 53.3,
+        "bear_pct": 31.2,
+        "neutral_pct": 15.5,
+        "net_breadth": 0.221,
+        "R_ratio": 1.736
+      },
+      {
+        "date": "2026-04-18",
+        "bull_pct": 54.5,
+        "bear_pct": 28.3,
+        "neutral_pct": 17.2,
+        "net_breadth": 0.262,
+        "R_ratio": 1.877
+      },
+      {
+        "date": "2026-04-19",
+        "bull_pct": 53.4,
+        "bear_pct": 30.9,
+        "neutral_pct": 15.7,
+        "net_breadth": 0.225,
+        "R_ratio": 1.726
+      }
+    ]
+  },
+  "sectors": [
+    {
+      "name": "Capital Goods",
+      "short_name": "Cap Goods",
+      "median_truevx": 71.4,
+      "breadth_pct": 0.71,
+      "state": "HOT",
+      "momentum_7d": 4.8,
+      "ignition_alert": true,
+      "stock_count": 59,
+      "cascade_followers": [
+        "Financial Services",
+        "Healthcare",
+        "IT",
+        "FMCG"
+      ],
+      "follow_probability": 0.95,
+      "pre_ignition_leader": false
+    },
+    {
+      "name": "Construction Materials",
+      "short_name": "Const Mat",
+      "median_truevx": 66.2,
+      "breadth_pct": 0.64,
+      "state": "HOT",
+      "momentum_7d": 3.9,
+      "ignition_alert": false,
+      "stock_count": 22,
+      "cascade_followers": [
+        "Capital Goods",
+        "Financial Services",
+        "Healthcare"
+      ],
+      "follow_probability": 0.9,
+      "pre_ignition_leader": true
+    },
+    {
+      "name": "Chemicals",
+      "short_name": "Chemicals",
+      "median_truevx": 63.8,
+      "breadth_pct": 0.61,
+      "state": "HOT",
+      "momentum_7d": 3.2,
+      "ignition_alert": false,
+      "stock_count": 38,
+      "cascade_followers": [
+        "Auto & Components",
+        "Consumer Durables",
+        "FMCG",
+        "Healthcare"
+      ],
+      "follow_probability": 0.88,
+      "pre_ignition_leader": true
+    },
+    {
+      "name": "Healthcare",
+      "short_name": "Healthcare",
+      "median_truevx": 61.5,
+      "breadth_pct": 0.59,
+      "state": "WARM",
+      "momentum_7d": 2.4,
+      "ignition_alert": false,
+      "stock_count": 48,
+      "cascade_followers": [
+        "IT",
+        "FMCG"
+      ],
+      "follow_probability": 0.82,
+      "pre_ignition_leader": false
+    },
+    {
+      "name": "Financial Services",
+      "short_name": "Financials",
+      "median_truevx": 58.3,
+      "breadth_pct": 0.55,
+      "state": "WARM",
+      "momentum_7d": 2.1,
+      "ignition_alert": false,
+      "stock_count": 94,
+      "cascade_followers": [
+        "Services",
+        "Realty"
+      ],
+      "follow_probability": 0.78,
+      "pre_ignition_leader": false
+    },
+    {
+      "name": "Automobile and Auto Components",
+      "short_name": "Auto",
+      "median_truevx": 55.7,
+      "breadth_pct": 0.52,
+      "state": "WARM",
+      "momentum_7d": 1.8,
+      "ignition_alert": false,
+      "stock_count": 35,
+      "cascade_followers": [
+        "Chemicals",
+        "Consumer Durables"
+      ],
+      "follow_probability": 0.74,
+      "pre_ignition_leader": false
+    },
+    {
+      "name": "Consumer Durables",
+      "short_name": "Cons Durable",
+      "median_truevx": 54.1,
+      "breadth_pct": 0.5,
+      "state": "WARM",
+      "momentum_7d": 1.4,
+      "ignition_alert": false,
+      "stock_count": 22,
+      "cascade_followers": [
+        "FMCG"
+      ],
+      "follow_probability": 0.7,
+      "pre_ignition_leader": false
+    },
+    {
+      "name": "Info Technology",
+      "short_name": "IT",
+      "median_truevx": 51.8,
+      "breadth_pct": 0.47,
+      "state": "WARM",
+      "momentum_7d": 0.9,
+      "ignition_alert": false,
+      "stock_count": 42,
+      "cascade_followers": [
+        "Services"
+      ],
+      "follow_probability": 0.65,
+      "pre_ignition_leader": false
+    },
+    {
+      "name": "Realty",
+      "short_name": "Realty",
+      "median_truevx": 49.2,
+      "breadth_pct": 0.44,
+      "state": "COOLING",
+      "momentum_7d": -0.3,
+      "ignition_alert": false,
+      "stock_count": 15,
+      "cascade_followers": [
+        "Construction"
+      ],
+      "follow_probability": 0.6,
+      "pre_ignition_leader": false
+    },
+    {
+      "name": "FMCG",
+      "short_name": "FMCG",
+      "median_truevx": 47.6,
+      "breadth_pct": 0.42,
+      "state": "COOLING",
+      "momentum_7d": -0.7,
+      "ignition_alert": false,
+      "stock_count": 28,
+      "cascade_followers": [],
+      "follow_probability": 0.5,
+      "pre_ignition_leader": false
+    },
+    {
+      "name": "Power",
+      "short_name": "Power",
+      "median_truevx": 44.3,
+      "breadth_pct": 0.38,
+      "state": "COOLING",
+      "momentum_7d": -1.2,
+      "ignition_alert": false,
+      "stock_count": 18,
+      "cascade_followers": [],
+      "follow_probability": 0.45,
+      "pre_ignition_leader": false
+    },
+    {
+      "name": "Oil Gas and Fuels",
+      "short_name": "Oil & Gas",
+      "median_truevx": 42.1,
+      "breadth_pct": 0.35,
+      "state": "COOLING",
+      "momentum_7d": -1.8,
+      "ignition_alert": false,
+      "stock_count": 26,
+      "cascade_followers": [],
+      "follow_probability": 0.4,
+      "pre_ignition_leader": false
+    },
+    {
+      "name": "Metals and Mining",
+      "short_name": "Metals",
+      "median_truevx": 40.5,
+      "breadth_pct": 0.33,
+      "state": "COLD",
+      "momentum_7d": -2.3,
+      "ignition_alert": false,
+      "stock_count": 22,
+      "cascade_followers": [],
+      "follow_probability": 0.38,
+      "pre_ignition_leader": false
+    },
+    {
+      "name": "Construction",
+      "short_name": "Construct",
+      "median_truevx": 38.8,
+      "breadth_pct": 0.3,
+      "state": "COLD",
+      "momentum_7d": -2.9,
+      "ignition_alert": false,
+      "stock_count": 18,
+      "cascade_followers": [],
+      "follow_probability": 0.35,
+      "pre_ignition_leader": false
+    },
+    {
+      "name": "Consumer Services",
+      "short_name": "Cons Serv",
+      "median_truevx": 36.2,
+      "breadth_pct": 0.27,
+      "state": "COLD",
+      "momentum_7d": -3.4,
+      "ignition_alert": false,
+      "stock_count": 20,
+      "cascade_followers": [],
+      "follow_probability": 0.3,
+      "pre_ignition_leader": false
+    },
+    {
+      "name": "Services",
+      "short_name": "Services",
+      "median_truevx": 34.1,
+      "breadth_pct": 0.24,
+      "state": "COLD",
+      "momentum_7d": -3.9,
+      "ignition_alert": false,
+      "stock_count": 28,
+      "cascade_followers": [],
+      "follow_probability": 0.28,
+      "pre_ignition_leader": false
+    },
+    {
+      "name": "Telecommunication",
+      "short_name": "Telecom",
+      "median_truevx": 28.4,
+      "breadth_pct": 0.18,
+      "state": "COLD",
+      "momentum_7d": -4.8,
+      "ignition_alert": false,
+      "stock_count": 10,
+      "cascade_followers": [],
+      "follow_probability": 0.22,
+      "pre_ignition_leader": false
+    }
+  ],
+  "cascade_alert": {
+    "active": true,
+    "triggered_by": "Capital Goods",
+    "triggered_date": "2026-04-14",
+    "expected_followers": [
+      "Financial Services",
+      "Healthcare",
+      "IT",
+      "FMCG"
+    ],
+    "probability": 0.95,
+    "days_since_trigger": 6
+  },
+  "f7_stocks": [
+    {
+      "symbol": "BAJFINANCE",
+      "name": "Bajaj Finance",
+      "sector": "Financial Services",
+      "truevx": 96,
+      "mean_short": 91,
+      "mean_mid": 82,
+      "mean_long": 71,
+      "state": "ACCELERATING",
+      "level_zone": "STRETCHED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 2.4,
+      "expected_222d": 24.1
+    },
+    {
+      "symbol": "LT",
+      "name": "Larsen & Toubro",
+      "sector": "Capital Goods",
+      "truevx": 95,
+      "mean_short": 90,
+      "mean_mid": 80,
+      "mean_long": 68,
+      "state": "ACCELERATING",
+      "level_zone": "STRETCHED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 2.3,
+      "expected_222d": 23.8
+    },
+    {
+      "symbol": "ULTRACEMCO",
+      "name": "UltraTech Cement",
+      "sector": "Construction Materials",
+      "truevx": 94,
+      "mean_short": 89,
+      "mean_mid": 78,
+      "mean_long": 66,
+      "state": "ACCELERATING",
+      "level_zone": "STRETCHED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 2.2,
+      "expected_222d": 23.2
+    },
+    {
+      "symbol": "SIEMENS",
+      "name": "Siemens India",
+      "sector": "Capital Goods",
+      "truevx": 93,
+      "mean_short": 88,
+      "mean_mid": 76,
+      "mean_long": 64,
+      "state": "ACCELERATING",
+      "level_zone": "STRETCHED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 2.1,
+      "expected_222d": 22.9
+    },
+    {
+      "symbol": "DIVISLAB",
+      "name": "Divi's Laboratories",
+      "sector": "Healthcare",
+      "truevx": 93,
+      "mean_short": 87,
+      "mean_mid": 75,
+      "mean_long": 63,
+      "state": "ACCELERATING",
+      "level_zone": "STRETCHED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 2.1,
+      "expected_222d": 22.6
+    },
+    {
+      "symbol": "SUNPHARMA",
+      "name": "Sun Pharmaceutical",
+      "sector": "Healthcare",
+      "truevx": 92,
+      "mean_short": 87,
+      "mean_mid": 74,
+      "mean_long": 62,
+      "state": "ACCELERATING",
+      "level_zone": "STRETCHED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 2.0,
+      "expected_222d": 22.3
+    },
+    {
+      "symbol": "PIDILITIND",
+      "name": "Pidilite Industries",
+      "sector": "Chemicals",
+      "truevx": 92,
+      "mean_short": 86,
+      "mean_mid": 73,
+      "mean_long": 61,
+      "state": "ACCELERATING",
+      "level_zone": "STRETCHED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 2.0,
+      "expected_222d": 22.0
+    },
+    {
+      "symbol": "ABB",
+      "name": "ABB India",
+      "sector": "Capital Goods",
+      "truevx": 91,
+      "mean_short": 85,
+      "mean_mid": 72,
+      "mean_long": 60,
+      "state": "ACCELERATING",
+      "level_zone": "STRETCHED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 1.9,
+      "expected_222d": 21.7
+    },
+    {
+      "symbol": "HDFCBANK",
+      "name": "HDFC Bank",
+      "sector": "Financial Services",
+      "truevx": 91,
+      "mean_short": 85,
+      "mean_mid": 71,
+      "mean_long": 60,
+      "state": "ACCELERATING",
+      "level_zone": "STRETCHED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 1.9,
+      "expected_222d": 21.5
+    },
+    {
+      "symbol": "APOLLOHOSP",
+      "name": "Apollo Hospitals",
+      "sector": "Healthcare",
+      "truevx": 90,
+      "mean_short": 84,
+      "mean_mid": 70,
+      "mean_long": 58,
+      "state": "ACCELERATING",
+      "level_zone": "ELEVATED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 1.8,
+      "expected_222d": 21.2
+    },
+    {
+      "symbol": "MARICO",
+      "name": "Marico Ltd",
+      "sector": "FMCG",
+      "truevx": 90,
+      "mean_short": 83,
+      "mean_mid": 69,
+      "mean_long": 57,
+      "state": "ACCELERATING",
+      "level_zone": "ELEVATED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 1.8,
+      "expected_222d": 20.9
+    },
+    {
+      "symbol": "BERGEPAINT",
+      "name": "Berger Paints",
+      "sector": "Chemicals",
+      "truevx": 90,
+      "mean_short": 83,
+      "mean_mid": 68,
+      "mean_long": 56,
+      "state": "ACCELERATING",
+      "level_zone": "ELEVATED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 1.7,
+      "expected_222d": 20.7
+    }
+  ],
+  "in_the_flow": [
+    {
+      "symbol": "BAJFINANCE",
+      "name": "Bajaj Finance",
+      "sector": "Financial Services",
+      "truevx": 96,
+      "mean_short": 91,
+      "mean_mid": 82,
+      "mean_long": 71,
+      "state": "ACCELERATING",
+      "level_zone": "STRETCHED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 2.4,
+      "expected_222d": 24.1
+    },
+    {
+      "symbol": "LT",
+      "name": "Larsen & Toubro",
+      "sector": "Capital Goods",
+      "truevx": 95,
+      "mean_short": 90,
+      "mean_mid": 80,
+      "mean_long": 68,
+      "state": "ACCELERATING",
+      "level_zone": "STRETCHED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 2.3,
+      "expected_222d": 23.8
+    },
+    {
+      "symbol": "SIEMENS",
+      "name": "Siemens India",
+      "sector": "Capital Goods",
+      "truevx": 93,
+      "mean_short": 88,
+      "mean_mid": 76,
+      "mean_long": 64,
+      "state": "ACCELERATING",
+      "level_zone": "STRETCHED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 2.1,
+      "expected_222d": 22.9
+    },
+    {
+      "symbol": "DIVISLAB",
+      "name": "Divi's Laboratories",
+      "sector": "Healthcare",
+      "truevx": 93,
+      "mean_short": 87,
+      "mean_mid": 75,
+      "mean_long": 63,
+      "state": "ACCELERATING",
+      "level_zone": "STRETCHED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 2.1,
+      "expected_222d": 22.6
+    },
+    {
+      "symbol": "PIDILITIND",
+      "name": "Pidilite Industries",
+      "sector": "Chemicals",
+      "truevx": 92,
+      "mean_short": 86,
+      "mean_mid": 73,
+      "mean_long": 61,
+      "state": "ACCELERATING",
+      "level_zone": "STRETCHED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 2.0,
+      "expected_222d": 22.0
+    },
+    {
+      "symbol": "HDFCBANK",
+      "name": "HDFC Bank",
+      "sector": "Financial Services",
+      "truevx": 91,
+      "mean_short": 85,
+      "mean_mid": 71,
+      "mean_long": 60,
+      "state": "ACCELERATING",
+      "level_zone": "STRETCHED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 1.9,
+      "expected_222d": 21.5
+    },
+    {
+      "symbol": "APOLLOHOSP",
+      "name": "Apollo Hospitals",
+      "sector": "Healthcare",
+      "truevx": 90,
+      "mean_short": 84,
+      "mean_mid": 70,
+      "mean_long": 58,
+      "state": "ACCELERATING",
+      "level_zone": "ELEVATED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 1.8,
+      "expected_222d": 21.2
+    },
+    {
+      "symbol": "MARICO",
+      "name": "Marico Ltd",
+      "sector": "FMCG",
+      "truevx": 90,
+      "mean_short": 83,
+      "mean_mid": 69,
+      "mean_long": 57,
+      "state": "ACCELERATING",
+      "level_zone": "ELEVATED",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 1.8,
+      "expected_222d": 20.9
+    }
+  ],
+  "watchlist": [
+    {
+      "symbol": "ICICIBANK",
+      "name": "ICICI Bank",
+      "sector": "Financial Services",
+      "truevx": 82,
+      "mean_short": 76,
+      "mean_mid": 61,
+      "mean_long": 52,
+      "state": "EARLY_RECOVERY",
+      "level_zone": "ELEVATED",
+      "flow_status": "LAGGARD_HOT",
+      "expected_22d": 1.5,
+      "expected_222d": 18.2
+    },
+    {
+      "symbol": "VOLTAS",
+      "name": "Voltas Ltd",
+      "sector": "Consumer Durables",
+      "truevx": 79,
+      "mean_short": 73,
+      "mean_mid": 58,
+      "mean_long": 49,
+      "state": "EARLY_RECOVERY",
+      "level_zone": "ELEVATED",
+      "flow_status": "LAGGARD_HOT",
+      "expected_22d": 1.4,
+      "expected_222d": 17.8
+    },
+    {
+      "symbol": "DRREDDY",
+      "name": "Dr. Reddy's Lab",
+      "sector": "Healthcare",
+      "truevx": 77,
+      "mean_short": 72,
+      "mean_mid": 56,
+      "mean_long": 47,
+      "state": "EARLY_RECOVERY",
+      "level_zone": "ELEVATED",
+      "flow_status": "LAGGARD_HOT",
+      "expected_22d": 1.3,
+      "expected_222d": 17.4
+    },
+    {
+      "symbol": "TATACHEM",
+      "name": "Tata Chemicals",
+      "sector": "Chemicals",
+      "truevx": 75,
+      "mean_short": 70,
+      "mean_mid": 54,
+      "mean_long": 45,
+      "state": "EARLY_RECOVERY",
+      "level_zone": "ELEVATED",
+      "flow_status": "LAGGARD_HOT",
+      "expected_22d": 1.2,
+      "expected_222d": 17.1
+    },
+    {
+      "symbol": "CUMMINSIND",
+      "name": "Cummins India",
+      "sector": "Capital Goods",
+      "truevx": 73,
+      "mean_short": 68,
+      "mean_mid": 52,
+      "mean_long": 43,
+      "state": "EARLY_RECOVERY",
+      "level_zone": "NEUTRAL",
+      "flow_status": "IN_THE_FLOW",
+      "expected_22d": 1.2,
+      "expected_222d": 16.8
+    }
+  ],
+  "s6_stocks": [
+    {
+      "symbol": "BHARTIARTL",
+      "name": "Bharti Airtel",
+      "sector": "Telecommunication",
+      "truevx": 18,
+      "mean_short": 24,
+      "mean_mid": 35,
+      "mean_long": 48,
+      "state": "DECELERATING",
+      "level_zone": "LOW",
+      "flow_status": "OUT_OF_FLOW",
+      "expected_22d": -0.2,
+      "expected_222d": 8.1
+    },
+    {
+      "symbol": "IDEA",
+      "name": "Vodafone Idea",
+      "sector": "Telecommunication",
+      "truevx": 12,
+      "mean_short": 19,
+      "mean_mid": 28,
+      "mean_long": 42,
+      "state": "DECELERATING",
+      "level_zone": "DEPRESSED",
+      "flow_status": "OUT_OF_FLOW",
+      "expected_22d": -0.5,
+      "expected_222d": 5.3
+    },
+    {
+      "symbol": "ZEEL",
+      "name": "Zee Entertainment",
+      "sector": "Services",
+      "truevx": 15,
+      "mean_short": 22,
+      "mean_mid": 32,
+      "mean_long": 44,
+      "state": "DECELERATING",
+      "level_zone": "LOW",
+      "flow_status": "OUT_OF_FLOW",
+      "expected_22d": -0.3,
+      "expected_222d": 6.8
+    },
+    {
+      "symbol": "IRCTC",
+      "name": "IRCTC",
+      "sector": "Consumer Services",
+      "truevx": 16,
+      "mean_short": 23,
+      "mean_mid": 33,
+      "mean_long": 45,
+      "state": "DECELERATING",
+      "level_zone": "LOW",
+      "flow_status": "OUT_OF_FLOW",
+      "expected_22d": -0.2,
+      "expected_222d": 7.2
+    }
+  ],
+  "state_distribution": {
+    "ACCELERATING": 131,
+    "DECELERATING": 128,
+    "PEAK_ROLLOVER": 64,
+    "BASE_BUILDING": 60,
+    "EARLY_RECOVERY": 52,
+    "LATE_DECLINE": 40
+  },
+  "weekly_brief": "NIFTY 500 probability analysis for Week 16, 2026: The market breadth ratio R stands at 1.85, placing it in the Q4 quintile \u2014 historically associated with a 68% probability of positive NIFTY returns over the next 22 trading days, and a median forward return of +2.8%. The 21-day R slope is rising (+0.094), which our research identifies as a regime-change leading indicator with a Spearman correlation of +0.39 to forward 44-day returns. Capital Goods formally ignited on April 14th (breadth crossed 71%), triggering the cascade alert: Financial Services, Healthcare, IT, and FMCG have historically followed within 10 days with 95% probability (10 events, 100% follow rate). Construction Materials and Chemicals \u2014 the two early-cycle barometers of the Indian market \u2014 both crossed the 60% breadth threshold this week, historically preceding broad-market expansion. 24 stocks currently qualify for the F7 signal (TrueVX >90 with all moving averages in high zones), historically delivering +35.7% CAGR out-of-sample. The market's order parameter \u03b2 is 0.72, within the normal structural range (mean 0.655), indicating no bubble warning at this time (\u03b2>1.2 is the crash-precursor threshold). The dominant state is ACCELERATING (131 stocks, 27.6% of universe), consistent with a healthy bull phase."
+}
