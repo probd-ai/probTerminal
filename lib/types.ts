@@ -85,6 +85,7 @@ export interface BacktestStats {
 
 export interface BacktestCurves {
   dates: string[];
+  nifty_500: number[];
   long_only: number[];
   long_meanrevert: number[];
 }
@@ -100,6 +101,7 @@ export interface BacktestData {
   period: string;
   curves: BacktestCurves;
   stats: {
+    nifty_500: BacktestStats;
     long_only: BacktestStats;
     long_meanrevert: BacktestStats;
   };

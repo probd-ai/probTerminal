@@ -136,30 +136,28 @@ export default async function Home() {
           </div>
         </div>
 
-        {/* ── Breadth Timeline ─────────────────────────────────────── */}
-        <section className="card" style={{ padding: "28px", marginBottom: 32 }}>
-          <div style={{ marginBottom: 20 }}>
-            <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: 8 }}>
-              <h2 style={{ fontSize: 18, fontWeight: 600, letterSpacing: "-0.02em" }}>Market Breadth — Last 90 Days</h2>
-              <div style={{ display: "flex", alignItems: "center", gap: 16, fontSize: 12, fontFamily: "'JetBrains Mono', monospace" }}>
-                <span style={{ display: "flex", alignItems: "center", gap: 6 }}>
-                  <span style={{ width: 8, height: 2, background: "#14d9c4", display: "inline-block", borderRadius: 1 }} />
-                  <span style={{ color: "var(--text-2)" }}>Bull %</span>
-                </span>
-                <span style={{ display: "flex", alignItems: "center", gap: 6 }}>
-                  <span style={{ width: 8, height: 2, background: "#f43f5e", display: "inline-block", borderRadius: 1 }} />
-                  <span style={{ color: "var(--text-2)" }}>Bear %</span>
-                </span>
-              </div>
+        {/* ── Performance Comparison ─────────────────────────────── */}
+        {snap.backtest && (
+          <>
+            <h2 style={{ fontSize: 18, fontWeight: 600, letterSpacing: "-0.02em", marginBottom: 24 }}>
+              5-Year Strategy Performance
+            </h2>
+            <div style={{ display: "grid", gridTemplateColumns: "1fr 300px", gap: 20, marginBottom: 40, alignItems: "start" }}>
+              <PerformanceChart
+                dates={snap.backtest.curves.dates}
+                nifty500={snap.backtest.curves.nifty_500}
+                longOnly={snap.backtest.curves.long_only}
+                longMeanRevert={snap.backtest.curves.long_meanrevert}
+                stats={snap.backtest.stats}
+              />
+              <TopContributors stocks={snap.backtest.top_contributing_stocks_lmr} />
             </div>
-            <p style={{ color: "var(--text-3)", fontSize: 13, marginTop: 4 }}>
-              % of NIFTY 500 stocks in structural bull vs. bear state (mean_long &gt;80 / &lt;40)
+            <p style={{ color: "var(--text-3)", fontSize: 12, marginBottom: 40, maxWidth: 900 }}>
+              Performance is based on walk-forward validation (2021–2026). Long Mean-Revert uses 66-day MA as regime gate with F7 signal filters. Past performance does not guarantee future results.
             </p>
-          </div>
-          <BreadthChart data={mp.breadth_history} />
-        </section>
+          </>
+        )}
 
-        {/* ── β Order Parameter ─────────────────────────────────── */}
         <section style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(300px,1fr))", gap: 16, marginBottom: 32 }}>
           <div className="card" style={{ padding: "24px" }}>
             <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 12 }}>
@@ -200,9 +198,7 @@ export default async function Home() {
               ))}
             </div>
           </div>
-        </section>
-
-        {/* ── Sector Flash ──────────────────────────────────────── */}
+        {/* Sector Flash */}
         <section style={{ marginBottom: 40 }}>
           <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between", marginBottom: 16 }}>
             <h2 style={{ fontSize: 18, fontWeight: 600, letterSpacing: "-0.02em" }}>Sector Temperature</h2>
@@ -232,29 +228,7 @@ export default async function Home() {
           </div>
         </section>
 
-        {/* ── Performance Comparison ─────────────────────────────── */}
-        {snap.backtest && (
-          <>
-            <h2 style={{ fontSize: 18, fontWeight: 600, letterSpacing: "-0.02em", marginBottom: 24 }}>
-              5-Year Strategy Performance
-            </h2>
-            <div style={{ display: "grid", gridTemplateColumns: "1fr 300px", gap: 20, marginBottom: 40, alignItems: "start" }}>
-              <PerformanceChart
-                dates={snap.backtest.curves.dates}
-                longOnly={snap.backtest.curves.long_only}
-                longMeanRevert={snap.backtest.curves.long_meanrevert}
-                stats={snap.backtest.stats}
-              />
-              <TopContributors stocks={snap.backtest.top_contributing_stocks_lmr} />
-            </div>
-            <p style={{ color: "var(--text-3)", fontSize: 12, marginBottom: 40, maxWidth: 900 }}>
-              Performance is based on walk-forward validation (2021–2026). Long Mean-Revert uses 66-day MA as regime gate with F7 signal filters. Past performance does not guarantee future results.
-            </p>
-          </>
-        )}
-
         {/* ── Weekly Intelligence Brief (SEO KEY) ──────────────── */}
-        <section className="card dot-grid" style={{ padding: "32px", marginBottom: 40 }}>
           <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 16 }}>
             <TrendingUp size={16} style={{ color: "#a78bfa" }} />
             <h2 style={{ fontSize: 16, fontWeight: 600 }}>Market Intelligence Brief</h2>
@@ -282,6 +256,29 @@ export default async function Home() {
             prob22d={mp.win_prob_22d}
             week={snap.meta.week_of}
           />
+        </section>
+
+        {/* ── Market Breadth Timeline ─────────────────────────────── */}
+        <section className="card" style={{ padding: "28px", marginBottom: 32 }}>
+          <div style={{ marginBottom: 20 }}>
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: 8 }}>
+              <h2 style={{ fontSize: 18, fontWeight: 600, letterSpacing: "-0.02em" }}>Market Breadth — Last 90 Days</h2>
+              <div style={{ display: "flex", alignItems: "center", gap: 16, fontSize: 12, fontFamily: "'JetBrains Mono', monospace" }}>
+                <span style={{ display: "flex", alignItems: "center", gap: 6 }}>
+                  <span style={{ width: 8, height: 2, background: "#14d9c4", display: "inline-block", borderRadius: 1 }} />
+                  <span style={{ color: "var(--text-2)" }}>Bull %</span>
+                </span>
+                <span style={{ display: "flex", alignItems: "center", gap: 6 }}>
+                  <span style={{ width: 8, height: 2, background: "#f43f5e", display: "inline-block", borderRadius: 1 }} />
+                  <span style={{ color: "var(--text-2)" }}>Bear %</span>
+                </span>
+              </div>
+            </div>
+            <p style={{ color: "var(--text-3)", fontSize: 13, marginTop: 4 }}>
+              % of NIFTY 500 stocks in structural bull vs. bear state (mean_long &gt;80 / &lt;40)
+            </p>
+          </div>
+          <BreadthChart data={mp.breadth_history} />
         </section>
 
         {/* ── Telegram CTA ─────────────────────────────────────── */}
