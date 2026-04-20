@@ -46,6 +46,7 @@ export interface CascadeAlert {
   expected_followers: string[];
   probability: number;
   days_since_trigger: number;
+  regime_note?: string;
 }
 
 export interface Stock {

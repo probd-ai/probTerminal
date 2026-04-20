@@ -35,6 +35,9 @@ export default async function Home() {
               <p style={{ color: "var(--text-2)", fontSize: 12, marginTop: 2 }}>
                 {cascade.expected_followers.join(", ")} historically follow with{" "}
                 <span style={{ color: "#a78bfa", fontWeight: 600 }}>{Math.round(cascade.probability * 100)}% probability</span> within 10 trading days.
+                {cascade.regime_note && (
+                  <span style={{ color: "#f97316", display: "block", marginTop: 4 }}>⚠ {cascade.regime_note}</span>
+                )}
               </p>
             </div>
           </div>
