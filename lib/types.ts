@@ -74,6 +74,38 @@ export interface StateDistribution {
   LATE_DECLINE: number;
 }
 
+export interface BacktestStats {
+  cagr_pct: number;
+  volatility_pct: number;
+  sharpe: number;
+  max_drawdown_pct: number;
+  win_rate_pct: number;
+  total_return_pct: number;
+}
+
+export interface BacktestCurves {
+  dates: string[];
+  long_only: number[];
+  long_meanrevert: number[];
+}
+
+export interface TopContributingStock {
+  symbol: string;
+  contribution_pct: number;
+  trades: number;
+}
+
+export interface BacktestData {
+  generated_at: string;
+  period: string;
+  curves: BacktestCurves;
+  stats: {
+    long_only: BacktestStats;
+    long_meanrevert: BacktestStats;
+  };
+  top_contributing_stocks_lmr: TopContributingStock[];
+}
+
 export interface SnapshotMeta {
   last_updated: string;
   week_of: string;
@@ -93,4 +125,5 @@ export interface Snapshot {
   s6_stocks: Stock[];
   state_distribution: StateDistribution;
   weekly_brief: string;
+  backtest?: BacktestData;
 }

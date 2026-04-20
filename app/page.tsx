@@ -1,6 +1,8 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import BreadthChart from "@/components/charts/BreadthChart";
+import PerformanceChart from "@/components/charts/PerformanceChart";
+import TopContributors from "@/components/TopContributors";
 import NewsletterSignup from "@/components/NewsletterSignup";
 import ShareBar from "@/components/ShareBar";
 import TelegramBanner from "@/components/TelegramBanner";
@@ -130,7 +132,7 @@ export default async function Home() {
               </span>
               <span style={{ fontSize: 14, color: "var(--text-3)", marginLeft: 4 }}>/ 475</span>
             </div>
-            <div style={{ fontSize: 12, color: "var(--text-3)", marginTop: 4 }}>Top quality, all MA zones high</div>
+            <div style={{ fontSize: 12, color: "var(--text-3)", marginTop: 4 }}>Highest quality: all momentum timeframes aligned</div>
           </div>
         </div>
 
@@ -229,6 +231,27 @@ export default async function Home() {
             ))}
           </div>
         </section>
+
+        {/* ── Performance Comparison ─────────────────────────────── */}
+        {snap.backtest && (
+          <>
+            <h2 style={{ fontSize: 18, fontWeight: 600, letterSpacing: "-0.02em", marginBottom: 24 }}>
+              5-Year Strategy Performance
+            </h2>
+            <div style={{ display: "grid", gridTemplateColumns: "1fr 300px", gap: 20, marginBottom: 40, alignItems: "start" }}>
+              <PerformanceChart
+                dates={snap.backtest.curves.dates}
+                longOnly={snap.backtest.curves.long_only}
+                longMeanRevert={snap.backtest.curves.long_meanrevert}
+                stats={snap.backtest.stats}
+              />
+              <TopContributors stocks={snap.backtest.top_contributing_stocks_lmr} />
+            </div>
+            <p style={{ color: "var(--text-3)", fontSize: 12, marginBottom: 40, maxWidth: 900 }}>
+              Performance is based on walk-forward validation (2021–2026). Long Mean-Revert uses 66-day MA as regime gate with F7 signal filters. Past performance does not guarantee future results.
+            </p>
+          </>
+        )}
 
         {/* ── Weekly Intelligence Brief (SEO KEY) ──────────────── */}
         <section className="card dot-grid" style={{ padding: "32px", marginBottom: 40 }}>

@@ -75,41 +75,51 @@ export default function BreadthChart({ data }: Props) {
 
   return (
     <div style={{ width: "100%", minWidth: 0 }}>
-      {/* Legend */}
-      <div style={{ display: "flex", gap: 20, marginBottom: 10, fontSize: 11, fontFamily: "'JetBrains Mono', monospace", color: "var(--text-3)" }}>
-        <span style={{ display: "flex", alignItems: "center", gap: 5 }}>
-          <span style={{ width: 12, height: 2, background: "#14d9c4", display: "inline-block" }} /> Bull %
+      {/* Enhanced Legend */}
+      <div style={{
+        display: "flex",
+        gap: 16,
+        marginBottom: 16,
+        fontSize: 11,
+        fontFamily: "'JetBrains Mono', monospace",
+        padding: "12px 16px",
+        background: "rgba(255,255,255,0.02)",
+        border: "1px solid rgba(255,255,255,0.06)",
+        borderRadius: 8,
+      }}>
+        <span style={{ display: "flex", alignItems: "center", gap: 8, color: "#14d9c4", fontWeight: 600 }}>
+          <span style={{ width: 3, height: 12, background: "#14d9c4", display: "inline-block", borderRadius: 2 }} /> Bull Momentum
         </span>
-        <span style={{ display: "flex", alignItems: "center", gap: 5 }}>
-          <span style={{ width: 12, height: 2, background: "#f43f5e", display: "inline-block" }} /> Bear %
+        <span style={{ display: "flex", alignItems: "center", gap: 8, color: "#f43f5e", fontWeight: 600 }}>
+          <span style={{ width: 3, height: 12, background: "#f43f5e", display: "inline-block", borderRadius: 2 }} /> Bear Pressure
         </span>
-        <span style={{ display: "flex", alignItems: "center", gap: 5 }}>
-          <span style={{ width: 12, height: 2, background: "#a78bfa", borderTop: "1px dashed #a78bfa", display: "inline-block" }} /> R Ratio ×25
+        <span style={{ display: "flex", alignItems: "center", gap: 8, color: "#a78bfa", fontWeight: 600, marginLeft: "auto" }}>
+          <span style={{ width: 3, height: 12, borderTop: "2px dashed #a78bfa", display: "inline-block", borderRadius: 1 }} /> R-Ratio Signal
         </span>
       </div>
-      <div style={{ width: "100%", height: 280, minWidth: 0 }}>
+      <div style={{ width: "100%", height: 340, minWidth: 0 }}>
         <ResponsiveContainer width="100%" height="100%" minWidth={0}>
-          <ComposedChart data={chartData} margin={{ top: 8, right: 16, bottom: 0, left: 0 }}>
+          <ComposedChart data={chartData} margin={{ top: 12, right: 20, bottom: 8, left: 50 }}>
             <defs>
               <linearGradient id="bullGrad" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="5%" stopColor="#14d9c4" stopOpacity={0.25} />
+                <stop offset="5%" stopColor="#14d9c4" stopOpacity={0.35} />
                 <stop offset="95%" stopColor="#14d9c4" stopOpacity={0.02} />
               </linearGradient>
               <linearGradient id="bearGrad" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="5%" stopColor="#f43f5e" stopOpacity={0.25} />
+                <stop offset="5%" stopColor="#f43f5e" stopOpacity={0.35} />
                 <stop offset="95%" stopColor="#f43f5e" stopOpacity={0.02} />
               </linearGradient>
             </defs>
 
             <CartesianGrid
-              strokeDasharray="3 6"
-              stroke="rgba(255,255,255,0.04)"
+              strokeDasharray="4 4"
+              stroke="rgba(255,255,255,0.06)"
               vertical={false}
             />
 
             <XAxis
               dataKey="date"
-              tick={{ fill: "#50506a", fontSize: 11, fontFamily: "'JetBrains Mono', monospace" }}
+              tick={{ fill: "#696a82", fontSize: 11, fontFamily: "'JetBrains Mono', monospace" }}
               tickLine={false}
               axisLine={false}
               tickFormatter={formatXTick}
@@ -117,26 +127,29 @@ export default function BreadthChart({ data }: Props) {
             />
 
             <YAxis
-              tick={{ fill: "#50506a", fontSize: 11, fontFamily: "'JetBrains Mono', monospace" }}
+              tick={{ fill: "#696a82", fontSize: 11, fontFamily: "'JetBrains Mono', monospace" }}
               tickLine={false}
               axisLine={false}
               tickFormatter={(v) => `${v}%`}
               domain={[0, 80]}
-              width={36}
+              width={42}
             />
 
             <Tooltip content={<CustomTooltip />} />
 
+            {/* Neutral zone */}
             <ReferenceLine
               y={50}
-              stroke="rgba(255,255,255,0.08)"
-              strokeDasharray="4 4"
+              stroke="rgba(255,255,255,0.1)"
+              strokeDasharray="5 5"
+              label={{ value: "50% (Neutral)", position: "right", fill: "var(--text-3)", fontSize: 10, offset: 10 }}
             />
             {/* R=1.0 reference (25% on axis) */}
             <ReferenceLine
               y={25}
-              stroke="rgba(167,139,250,0.2)"
-              strokeDasharray="3 6"
+              stroke="rgba(167,139,250,0.15)"
+              strokeDasharray="4 4"
+              label={{ value: "R=1.0", position: "right", fill: "#a78bfa", fontSize: 10, offset: 10 }}
             />
 
             <Area
@@ -144,10 +157,10 @@ export default function BreadthChart({ data }: Props) {
               dataKey="bull_pct"
               name="Bull %"
               stroke="#14d9c4"
-              strokeWidth={2}
+              strokeWidth={2.5}
               fill="url(#bullGrad)"
               dot={false}
-              activeDot={{ r: 4, fill: "#14d9c4", strokeWidth: 0 }}
+              activeDot={{ r: 5, fill: "#14d9c4", strokeWidth: 0 }}
             />
 
             <Area
@@ -166,10 +179,10 @@ export default function BreadthChart({ data }: Props) {
               dataKey="R_axis"
               name="R Ratio"
               stroke="#a78bfa"
-              strokeWidth={1.5}
-              strokeDasharray="5 3"
+              strokeWidth={2}
+              strokeDasharray="6 3"
               dot={false}
-              activeDot={{ r: 3, fill: "#a78bfa", strokeWidth: 0 }}
+              activeDot={{ r: 4, fill: "#a78bfa", strokeWidth: 0 }}
             />
           </ComposedChart>
         </ResponsiveContainer>
