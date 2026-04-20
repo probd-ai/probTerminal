@@ -27,4 +27,4 @@ User-agent: Googlebot
 Allow: /
 
 # Sitemap
-Sitemap: https://probterminal.in/sitemap.xml
+Sitemap: https://prob-terminal.vercel.app/sitemap.xml

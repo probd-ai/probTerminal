@@ -10,6 +10,13 @@ export const metadata: Metadata = {
   title: "Sector Intelligence — Rotation & Cascade Maps",
   description:
     "Sector rotation analysis for NIFTY 500. Track sector breadth, momentum, ignition events, and cascade propagation maps. Identify where money is flowing before it happens.",
+  alternates: { canonical: "https://prob-terminal.vercel.app/sectors" },
+  openGraph: {
+    title: "Sector Intelligence — Rotation & Cascade Maps | Prob Terminal",
+    description: "Sector rotation analysis for NIFTY 500. Track sector breadth, momentum, ignition events, and cascade propagation maps.",
+    url: "https://prob-terminal.vercel.app/sectors",
+    images: [{ url: "https://prob-terminal.vercel.app/opengraph-image", width: 1200, height: 630 }],
+  },
 };
 
 export default async function SectorsPage() {

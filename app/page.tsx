@@ -8,6 +8,13 @@ import { ArrowUpRight, ArrowDownRight, TrendingUp, AlertTriangle, Zap } from "lu
 export const metadata: Metadata = {
   title: "Market Pulse — NIFTY 500 Breadth & Regime",
   description: "Live market breadth analysis for NIFTY 500. Current regime, bull/bear ratio R, 22-day win probability, and 90-day breadth timeline. Updated every week.",
+  alternates: { canonical: "https://prob-terminal.vercel.app" },
+  openGraph: {
+    title: "Market Pulse — NIFTY 500 Breadth & Regime | Prob Terminal",
+    description: "Live market breadth analysis for NIFTY 500. Current regime, bull/bear ratio R, 22-day win probability. Updated weekly.",
+    url: "https://prob-terminal.vercel.app",
+    images: [{ url: "https://prob-terminal.vercel.app/opengraph-image", width: 1200, height: 630 }],
+  },
 };
 
 export default async function Home() {

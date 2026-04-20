@@ -7,6 +7,14 @@ export const metadata: Metadata = {
   title: "Methodology — Research Paper",
   description:
     "Full research methodology: Universal Scaling Exponents in Cross-Sectional Equity Returns. β = 0.655 power law, LPPL crash analysis, 845,220 observations, NIFTY 500, 2015–2026. Walk-forward OOS/IS = 1.30.",
+  alternates: { canonical: "https://prob-terminal.vercel.app/methodology" },
+  openGraph: {
+    title: "Methodology — Universal Scaling Exponents in NIFTY 500 Returns | Prob Terminal",
+    description: "β = 0.655 power law, LPPL crash analysis, 845,220 observations. Walk-forward OOS/IS = 1.30. Full research paper.",
+    url: "https://prob-terminal.vercel.app/methodology",
+    type: "article",
+    images: [{ url: "https://prob-terminal.vercel.app/opengraph-image", width: 1200, height: 630 }],
+  },
 };
 
 const STATE_COLORS: Record<string, string> = {
@@ -104,8 +112,28 @@ function StatRow({ label, value, color = "#e8e8f2", sub }: { label: string; valu
 export default async function MethodologyPage() {
   const snap = await getSnapshot();
 
+  const scholarlyArticleLD = {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "name": "Universal Scaling Exponents in Cross-Sectional Equity Returns: Evidence from a Statistical Mechanics Framework Applied to the Indian Stock Market",
+    "headline": "Universal Scaling Exponents in Cross-Sectional Equity Returns",
+    "description": "Cross-sectional stock return predictability in the NIFTY 500 follows a damped power law SNR(t) = α·t^β·e^(−t/τ) with β = 0.655 — significantly above the random-walk value of 0.5. 845,220 observations spanning 2015–2026.",
+    "url": "https://prob-terminal.vercel.app/methodology",
+    "datePublished": "2026-04-20",
+    "author": { "@type": "Organization", "name": "Prob Terminal Research" },
+    "publisher": { "@type": "Organization", "name": "Prob Terminal", "url": "https://prob-terminal.vercel.app" },
+    "keywords": ["NIFTY 500", "power law", "market breadth", "LPPL", "sector rotation", "probability trading", "Indian stock market", "statistical mechanics", "quantitative finance"],
+    "about": [
+      { "@type": "Thing", "name": "NIFTY 500 market breadth" },
+      { "@type": "Thing", "name": "Power law scaling in equity returns" },
+      { "@type": "Thing", "name": "Log-Periodic Power Law crash prediction" },
+      { "@type": "Thing", "name": "Sector rotation in Indian markets" }
+    ]
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(scholarlyArticleLD) }} />
       <Navigation updatedDate={snap.meta.last_updated} />
       <main style={{ maxWidth: 960, margin: "0 auto", padding: "0 24px" }}>
 

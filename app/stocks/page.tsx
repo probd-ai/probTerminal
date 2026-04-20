@@ -10,6 +10,13 @@ export const metadata: Metadata = {
   title: "Stock Radar — F7 Signals & IN THE FLOW",
   description:
     "NIFTY 500 stock momentum signals. F7 prime quality stocks (TrueVX >90), IN THE FLOW stocks with sector tailwind, EARLY_RECOVERY watchlist, and S6 short candidates. Updated weekly.",
+  alternates: { canonical: "https://prob-terminal.vercel.app/stocks" },
+  openGraph: {
+    title: "Stock Radar — F7 Signals & Momentum Watchlist | Prob Terminal",
+    description: "NIFTY 500 stocks sorted by momentum strength. F7 signal stocks, IN THE FLOW movers, structural state analysis.",
+    url: "https://prob-terminal.vercel.app/stocks",
+    images: [{ url: "https://prob-terminal.vercel.app/opengraph-image", width: 1200, height: 630 }],
+  },
 };
 
 const STATE_COLORS: Record<string, string> = {
